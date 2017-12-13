@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+  
+    <title></title>
+
+   
+    <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="__CSS__/top.css" />
+  </head>
+  <style type="text/css">
+  	
+
+  </style>
+  <body>
+ 	<div id="top">
+  		<a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/index">用户管理</a>&nbsp;>>&nbsp;<a href="__URL__/addNode?pid=<{$pid}>&level=<{$level}>">添加节点</a>
+ 	</div>
+	<div id="all" >
+		<form action="__URL__/addNodeHandle" method="post">
+			<table class="table table-bordered table-hover" >
+				
+				<tr>
+					<td align="right" width="30%"><{$type}>名称：</td>
+					<td>
+						<input class="form-control" type="text" name='name'>
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><{$type}>描述：</td>
+					<td>
+						<input class="form-control" type="text" name="title">
+					</td>
+				</tr>
+				<tr>
+					<td align="right">是否开启：</td>
+					<td>
+						<label>
+							<input type="radio" name="status" value="1" checked="checked">&nbsp;开启&nbsp;
+						</label>	
+						<label>
+							<input type="radio" name="status" value="0">&nbsp;关闭&nbsp;
+						</label>
+						
+					</td>
+				</tr>
+				<tr>
+					<td align="right">排序</td>
+					<td>
+						<input class="form-control" type="text" name="sort" value='1'>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2' align="center" id="submitp">
+						<input type="hidden" name="pid" value='<{$pid}>'>
+						<input type="hidden" name="level" value='<{$level}>'>
+						<input class="btn btn-success btn-sm" type="submit" value="保存添加" id="submit">
+					</td>
+				</tr> 
+			</table>
+			
+		</form>			
+	</div>
+
+  </body>
+</html>

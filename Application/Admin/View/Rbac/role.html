@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    
+    <title></title>
+   	<script type="text/javascript" src="__JS__/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="__JS__/status.js"></script>
+
+    <link rel="stylesheet" href="__CSS__/bootstrap.min.css" >
+ 	<link rel="stylesheet" href="__CSS__/top.css" />
+  </head>
+  <style type="text/css">
+  	th,td{ 
+  		text-align:center;
+  	}
+  </style>
+  	<script type="text/javascript">
+  		//js外部文件中不能解析URL变量
+ 		var url = '__URL__/status';
+ 		var table = 'role';
+
+    function del(id){
+      if(confirm('确定要删除吗？')){
+        window.location = "__URL__/delRole?rid="+id;
+      }
+
+    }
+  </script>
+  <body>
+  	<div id="top">
+  		<a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/index">用户管理</a>&nbsp;>>&nbsp;<a href="__URL__/role">角色列表</a>
+  	</div>
+	<div id="all" >
+		<form action="__URL__/addRoleHandle" method="post">
+			<table class="table table-bordered table-hover" >
+				<tr>
+					<th width="15%">ID</th>
+					<th width="35n %">角色名称</th>
+					<th width="20%">开启状态</th>
+					<th width="30%">操作</th>
+				</tr>
+				<foreach name="role" item='v'>
+					<tr>
+						<td><{$v.id}></td>
+						<td><{$v.name}></td>
+						<td>
+							<div class="out">
+								<div class="span" id="<{$v.id}>"><if condition='$v["status"]'>ON<else/>OFF</if></div>
+								<div class="in"></div>
+							</div>
+						</td>
+						<td>
+							[<a href="<{:U('Admin/Rbac/addRole',array('rid'=>$v['id']))}>">配置权限</a>]&nbsp;&nbsp;
+							[<a href="javascript:del('<{$v.id}>')">删除角色</a>]
+						</td>
+					</tr>
+				</foreach>	
+			</table>	
+		</form>		
+	</div>
+  </body>
+</html>

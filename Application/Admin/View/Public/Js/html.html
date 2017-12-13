@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>模态弹出窗的使用</title>
+<script src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+	$(function(){ 
+		
+		$('.yi').click(function(){ 
+			var inputs = $(this).parents('.app').find('input');
+			alert($(this).attr('checked'));
+			$(this).attr('checked') ? inputs.attr('checked','checked') : inputs.removeAttr('checked');
+		});
+		$('.er').click(function(){ 
+			var inputs = $(this).parents('.erji').find('input');
+			alert($(this).attr('checked'));
+			$(this).attr('checked') ? inputs.attr('checked','checked') : inputs.removeAttr('checked');
+		});
+	});
+
+
+</script>
+<style type="text/css">
+	
+	li{margin:20px;}
+</style>
+</head>
+<body>
+<div class="app">
+	<ul class="yiji">一级<input type="checkbox" class="yi">
+		<li >
+			<div class="erji">二级
+				<input type="checkbox" class='er'>
+				<ul>
+					<li>3级<input type="checkbox"></li>
+					<li>3级<input type="checkbox"></li>
+					<li>3级<input type="checkbox"></li>
+					<li>3级<input type="checkbox"></li>
+					<li>3级<input type="checkbox"></li>
+				</ul>
+			</div>
+		</li>
+		<li>二级<input type="checkbox"></li>
+		<li>二级<input type="checkbox"></li>
+		<li>二级<input type="checkbox"></li>
+		<li>二级<input type="checkbox"></li>
+	</ul>
+</div>
+<div class="app">
+	<ul>一级<input type="checkbox" class="yi">
+		<li>二级<input type="checkbox"></li>
+		<li>二级<input type="checkbox"></li>
+		<li>二级<input type="checkbox"></li>
+		<li>二级<input type="checkbox"></li>
+		<li>二级<input type="checkbox"></li>
+	</ul>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<include file="..\head" />
+<body>
+<br>
+<div class="newslist">
+    <div class="topdec"><b>新闻动态</b></div>
+    <div><middle>
+        <volist name="newstit" id="vo">
+        <p style="display:none;"><{$b=$vo.id}></p>
+        <a href="<{:U('Show/index?id='.$b)}>"><{$vo['title']|substr=0,51}></a><br>
+    </volist>
+    </middle></div>
+</div>
+<div class="flowpic">
+
+    <!--<div id="myCarousel" class="carousel slide">
+        &lt;!&ndash; 轮播（Carousel）指标 &ndash;&gt;
+       &lt;!&ndash; <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0"
+                class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>&ndash;&gt;
+        &lt;!&ndash; 轮播（Carousel）项目 &ndash;&gt;
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="__PUBLIC__/images/toppic_1.png" width="300px" height="200px" alt="First slide" class="topimg">
+            </div>
+            <div class="item">
+                <img src="__PUBLIC__/images/toppic_1.png" width="300px" height="200px" alt="Second slide" class="topimg">
+            </div>
+            <div class="item">
+                <img src="__PUBLIC__/images/toppic_2.png" width="300px" height="200px" alt="Third slide" class="topimg">
+            </div>
+        </div>
+        &lt;!&ndash; 轮播（Carousel）导航 &ndash;&gt;
+        <a class="carousel-control left" href="#myCarousel"
+           data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel"
+           data-slide="next">&rsaquo;</a>
+    </div>-->
+    <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="__PUBLIC__/images/toppic_1.png" alt="First slide">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="__PUBLIC__/images/toppic_1.png" alt="Second slide">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="__PUBLIC__/images/toppic_1.png" alt="Third slide">
+                <div class="carousel-caption"></div>
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="carousel-control left" href="#myCarousel"
+           data-slide="prev">&lsaquo;
+        </a>
+        <a class="carousel-control right" href="#myCarousel"
+           data-slide="next">&rsaquo;
+        </a>
+    </div>
+</div>
+<div class="notice">
+    <div class="topdec"><b>公告栏</b></div>
+    <div><middle>
+        <volist name="noticetit" id="vo">
+            <p style="display:none;"><{$b=$vo.id}></p>
+            <a href="<{:U('Show/index?id='.$b)}>"><{$vo['title']|substr=0,51}></a><br>
+        </volist>
+    </middle></div>
+    </volist>
+</div>
+<div class="piclinks">
+
+</div>
+<div class="activities">
+
+</div>
+<div class="links">
+    <div class="topdec"><b>教学资源</b></div>
+    <img src="__PUBLIC__/images/links/friendlink1.png" width="300px" height="40px" alt="">
+    <img src="__PUBLIC__/images/links/friendlink2.png" width="300px" height="40px" alt="">
+    <img src="__PUBLIC__/images/links/friendlink3.png" width="300px" height="40px" alt="">
+    <img src="__PUBLIC__/images/links/friendlink4.png" width="300px" height="40px" alt="">
+    <img src="__PUBLIC__/images/links/friendlink5.png" width="300px" height="40px" alt="">
+</div>
+</body>
+<include file="..\footer" />

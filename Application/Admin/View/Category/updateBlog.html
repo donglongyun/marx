@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+
+    <title></title>
+
+ 
+    <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="__CSS__/top.css" />
+    <script type="text/javascript">
+      window.UEDITOR_HOME_URL = '__JS__/ueditor/';
+    </script>
+    <js file='__JS__/ueditor/ueditor.config.js' />  <!-- 配置文件 -->
+    <js file='__JS__/ueditor/ueditor.all.min.js' />  <!-- 编辑器源码文件 -->
+    <script type="text/javascript" >
+      
+      window.onload = function(){
+        //window.UEDITOR_CONFIG.initialFrameWidth = 1200;  //指定编辑器宽度
+        window.UEDITOR_CONFIG.initialFrameHeight = 400;  //指定编辑器高度
+        
+        var ue = UE.getEditor('content');  // 实例化编辑器
+        //editor.setContent('<h1>建国</h1>');
+      }
+  </script>
+  <style type="text/css">
+      option{
+        color:#000;
+        background:#eee;
+      }
+  </style>
+  </head>
+
+<body>
+  <div id="top">
+      <a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/index">栏目管理</a>&nbsp;>>&nbsp;<a href="__URL__/index">栏目列表</a>&nbsp;>>&nbsp;<a href="__URL__/blogList?cid=<{$cid}>">查看文章</a>
+      &nbsp;>>&nbsp;<a href="__URL__/updateBlog?id=<{$id}>">修改文章</a>
+  </div>
+  <div id="all">
+    <form action="__URL__/updateBlogHandle" method='post'>
+      <table class="table table-bordered table-hover" >
+        <tr>
+          <td align="right" width='30%'>标题：</td>
+          <td>
+            <input class="form-control" style="width:180px" type="text" name="title" value='<{$blog.title}>'>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">所属分类：</td>
+          <td>
+            <select name="cid" style="width:180px" >
+              <option value="">====请选择分类====</option>
+              <foreach name="cate" item="v">
+                <option  value="<{$v.id}>" <if condition="$blog['cate'] eq $v['name']">selected="selected"</if> <if condition="$v['attr'] neq  1"> disabled style='color:#777;background:#fff'</if>  > <{$v.html}><{$v.name}></option>
+              </foreach>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">作者：</td>
+          <td>
+            <if condition="$id"><{$blog.author}><input type="hidden" name="author" value='<{$blog.author}>'>
+            <else/><{$_SESSION["username"]}><input type="hidden" name="author" value='<{$_SESSION["username"]}>'>
+            </if> 
+          </td>
+        </tr>
+        <tr>
+          <td align="right">日期：</td>
+          <td>
+            <input class="form-control" style="width:180px" type="text" name="time" <if condition="$id">value="<{$blog.time|date='Y-m-d H:i:s',###}>"<else/>value="<{$time|date='Y-m-d H:i:s',###}>"</if>>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">点击次数：</td>
+          <td>
+            <input class="form-control" style="width:180px" type="text" name="click"  <if condition="$id">value="<{$blog.click}>"<else/>value=100</if>>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center"> 
+            <textarea name="content" id="content"><{$blog.content}></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center"> 
+            <input type="hidden" name="id" value="<{$id}>">
+            <input type="hidden" name="oldCid" value="<{$cid}>">
+            <input class="btn btn-success btn-sm" type="submit" value=<if condition='$id'>"保存修改"<else/>"发布文章"</if>>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+  </body>
+</html>

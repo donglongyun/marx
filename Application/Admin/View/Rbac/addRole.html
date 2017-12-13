@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    
+    <title></title>
+     <script type="text/javascript" src="__JS__/jquery-1.7.2.min.js"></script>
+     <script type="text/javascript" src="__JS__/checked.js"></script>
+    
+    <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="__CSS__/top.css" />
+  
+    <style type="text/css">
+
+    </style>
+    <script type="text/javascript">
+	
+  </script>
+  </head>
+  
+  <body>
+  <div id="top">
+  	<a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/index">用户管理</a>&nbsp;>>&nbsp;<if condition="$role eq null"><a href="__URL__/addRole">添加角色</a><else/><a href="__URL__/addRole?rid=<{$role['id']}>">配置权限</a></if>
+  </div>
+	<div id="all" >
+		<form action="__URL__/addRoleHandle" method="post">
+			<table class="table table-bordered table-hover " >
+				
+				<tr>
+					<td align="right" width="20%">角色名称：</td>
+					<td>
+						<if condition="$role['name'] eq null"><input class="form-control" type="text" name='name'>
+						<else/><{$role.name}>
+						</if>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">是否开启：</td>
+					<td>	
+						<label>
+							<input type="radio" name="status" value="1" <if condition="$role">disabled='disabled'</if> <if condition="$role"><if condition="$role['status'] eq 1">checked="chcked"</if><else/>checked="chcked"</if>>&nbsp;开启&nbsp;
+						</label>
+						<label>
+							<input type="radio" name="status" value="0" <if condition="$role">disabled='disabled'</if> <if condition="$role"><if condition="$role['status'] eq 0">checked="chcked"</if></if>>&nbsp;关闭&nbsp;
+						</label>
+					
+					</td>
+				</tr>
+				<tr>
+					<td align='right'>分配权限：</td>
+					<td id='wrap'>
+							
+								<foreach name="node" item='app'>
+									<div class="app">
+										<p>
+											<label>
+												<strong><{$app.title}></strong>
+												<input type="checkbox" name="access[]" value="<{$app.id}>_<{$app.level}>" pid="<{$app.pid}>" level='<{$app.level}>' <if condition='$app["access"]'>checked='checked'</if>>
+											</label>
+										</p>
+										<foreach name="app.child" item='action'>
+											<dl>
+												<dt>
+													<label>
+														<strong><{$action.title}></strong>
+														<input type="checkbox" name="access[]" value="<{$action.id}>_<{$action.level}>" pid="<{$action.pid}>" level='<{$action.level}>' <if condition='$action["access"]'>checked='checked'</if>>
+													</label>
+												</dt>
+												<foreach name="action.child" item='method'>
+													<dd>
+														<label>
+															<span><{$method.title}></span>
+															<input type="checkbox" name="access[]" value="<{$method.id}>_<{$method.level}>" pid="<{$method.pid}>" level='<{$method.level}>' <if condition='$method["access"]'>checked='checked'</if>>
+														</label>								
+													</dd>
+												</foreach>
+											</dl>
+										</foreach>
+									</div>
+								</foreach>
+						<input type="hidden" name='rid' value="<{$rid}>">
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2' align="center" id="submitp">
+						<input class="btn btn-success btn-sm" type="submit" value="保存添加" id="submit">
+					</td>
+				</tr> 
+			</table>
+			
+		</form>	
+	</div>
+  </body>
+</html>

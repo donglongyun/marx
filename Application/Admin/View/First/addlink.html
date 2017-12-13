@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title></title>
+    <script type="text/javascript" src="__JS__/jquery-1.7.2.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="__CSS__/top.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+	<div id="top">
+		<a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/link">首页设置</a>&nbsp;&gt;&gt;&nbsp;<a href="__URL__/link">链接管理</a>&nbsp;&gt;&gt;&nbsp;<if condition='$link'><a href="__URL__/addLink?id=<{$link['id']}>">修改链接</a><else/><a href="__URL__/addLink">添加链接</a></if>
+	</div>
+	<div id="all" >
+		<form action="__URL__/linkHandle" method="post">
+			<table class="table table-bordered table-hover" >
+				<tr>
+					<td align="right" width='30%'>链接名称：</td>
+					<td><input class="form-control" type="text" name="name" value="<{$link.name}>" style="width:240px;"></td>
+				</tr>
+				<tr>
+					<td align="right">链接地址：</td>
+					<td>
+						<input class="form-control" type="text" name="href" value="<{$link.href}>" style="width:240px;">
+					</td>
+				</tr>
+				<tr>
+					<td align="right">链接分类：</td>
+					<td>
+						<label><input type="radio" name="type" value="1" <if condition="$link"> <if condition="$link['type']">checked</if> <else/> checked </if> >校内链接</label>&nbsp;&nbsp;&nbsp;&nbsp;
+						<label><input type="radio" name="type" value='0' <if condition="$link"> <if condition="$link['type'] eq 0">checked</if> </if> >校外链接</label>
+					</td>
+				</tr>
+				<tr id="last">
+					<td colspan='2' align="center" id="submitp">
+						<input type="hidden" name="id" value="<{$link.id}>">
+						<input class="btn btn-success btn-sm" type="submit" id="submit" <if condition='$link'>value="保存修改"<else/>value="保存添加"</if> >
+					</td>
+				</tr> 
+				
+			</table>
+			
+		</form>
+			
+	</div>
+
+  </body>
+</html>

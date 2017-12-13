@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title></title>
+    <script type="text/javascript" src="__JS__/jquery-1.7.2.min.js"></script>
+    <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="__CSS__/top.css" />
+  	<style type="text/css">
+	  	th,td{ 
+	  		text-align:center;
+	  	}
+  	</style>
+  	<script type="text/javascript">
+  		$(function(){ 
+  			$('tr').each(function(){ 
+  				if($(this).find('.level').text() == 1){ 
+  					$(this).css('background','#E5EEF7');
+  				}
+  			});
+  		});
+
+      function del(id){ 
+        if(confirm('确定要删除吗？')){ 
+          window.location = "__URL__/delete?id="+id;
+        }
+      }
+  	</script>
+  </head>
+  <body>
+	<div id="top">
+  		<a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/index">栏目管理</a>&nbsp;>>&nbsp;<a href="__URL__/index">栏目列表</a>
+  	</div>
+	<div id='all'>
+		<form action="__URL__/sortCate" method="post">
+			<table class="table table-bordered table-hover" >
+				<tr class="firstTr">
+						<th width='5%'>ID</th>
+						<th width='30%'>名称</th>
+						<th width='10%'>级别</th>
+            <th width='15%'>属性</th>
+						<th width='10%'>排序</th>
+						<th width='30%'>操作</th>
+				</tr>
+				<foreach name='cate' item='v'>
+					<tr>
+						<td><{$v.id}></td>
+						<td style='text-align:left;padding-left:10%'><{$v.html}><{$v.name}></td>
+						<td class="level"><{$v.level}></td>
+            <td>
+              <if condition="$v['attr'] eq 1">
+                列表<a href="__URL__/bloglist?cid=<{$v['id']}>">[查看]</a>
+              <elseif condition="$v['attr'] eq 2"/>
+                文章
+              <elseif condition="$v['attr'] eq 3"/>
+                栏目
+              <else/>
+                链接<a href="<{$v['src']}>">[查看]</a>
+              </if>
+            </td>
+						<td>
+							<input class="form-control" type="text" name="<{$v.id}>" value="<{$v.sort}>" style='width:50%;margin:0 auto;text-align:center'/>
+						</td>
+						<td>
+             <!--  <if condition="$v[level] lt 3"> --> <!-- 1,2级栏目允许添加子栏目 -->
+               <!--  <if condition="$v[attr] eq 3">  --> 
+                 
+                <!-- </if> -->
+              <!-- </if> -->
+              <if condition="$v[level] lt 100"> <!-- 1,2级栏目允许添加子栏目 -->
+                <if condition="$v[attr] eq 3"> 
+                 [<a href="__URL__/addCate?pid=<{$v['id']}>">添加子栏目</a>]
+                </if>
+                
+							</if>
+              [<a href="__URL__/updateCate?id=<{$v['id']}>">修改</a>]
+							[<a href="javascript:del(<{$v['id']}>)">删除</a>]
+						</td>
+					</tr>
+				</foreach>
+				<tr>
+					<td colspan="4"></td>
+					<td align="center">
+						<input class="btn btn-success btn-sm" type="submit" value="排序"  style="margin:0 auto" />
+					</td>
+					<td></td>
+
+				</tr>
+				
+			</table>
+			
+		</form>
+	</div>
+  </body>
+</html>

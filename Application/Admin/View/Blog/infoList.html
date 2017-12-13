@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title></title>
+   
+    <!-- Bootstrap -->
+    <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="__CSS__/top.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+    th,td{ 
+      text-align:center;
+    }
+    </style>
+    <script type="text/javascript">
+      function del(bid){ 
+        if(confirm('确定要删除吗？')){ 
+          window.location = "__URL__/delInfo?bid="+bid;
+        }
+      }
+    </script>
+  </head>
+ 
+  <body>
+  <div id="top">
+      <a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/index">文章管理</a>&nbsp;>>&nbsp;<a href="__URL__/infoList">简介文章</a>
+    </div>
+  <div id='all'>
+    <table class="table table-bordered table-hover" >
+
+      <tr class="firstTr">
+          <th width="5%">ID</th>
+          <th width="30%">栏目名称及标题</th>
+          <th width="15%">数据更新时间</th>
+          <th width="15%">发布状态</th>
+          <th width="15%">操作</th>
+      </tr>
+      <foreach name='cate' item='v'>
+        <tr>
+          <td><{$v.id}></td>
+          <td><if condition="$v['pcate']"><{$v.pcate}> -- </if><{$v.name}></td>
+          <?php if(!isset($v['time'])) $v['time'] = 0; ?> 
+          <td><{$v.time|date='Y-m-d H:i',###}></td>
+          <td>
+            <if condition="$v['blog']">已发布
+            <else/> <span style="color:red">未发布</span>
+            </if>
+          </td>
+          <td>
+              <if condition="$v['blog']">
+                [<a href="__URL__/addInfo?cid=<{$v['id']}>">修改文章</a>]
+                [<a href="javascript:del(<{$v['bid']}>)">删除文章</a>]
+              <else/>
+                [<a href="__URL__/addInfo?cid=<{$v['id']}>">发布文章</a>]
+              </if>
+          </td>
+        </tr>
+      </foreach>
+    </table>
+      
+  </div>  
+  <script src="__JS__/jquery-1.7.2.min.js"></script>
+  <script src="__JS__/bootstrap.min.js"></script>
+  </body>
+</html>

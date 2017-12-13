@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+   
+    <title></title>
+    <link rel="stylesheet" href="__CSS__/bootstrap.min.css" >
+ 	<link rel="stylesheet" href="__CSS__/top.css"/>
+   
+  </head>
+  <style type="text/css">
+  
+
+  </style>
+  <body>
+  	<div id="top">
+  		<a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/index">用户管理</a>&nbsp;>>&nbsp;<a href="__URL__/node">节点列表</a>
+	</div>
+
+	<div id='wrap'>
+		<a class="add_app" href="<{:U('Admin/Rbac/addNode')}>">添加应用</a>
+
+		<foreach name="node" item='app'>
+			<div class="app">
+				<p>
+					<strong><{$app.title}></strong>
+					[<a href="<{:U('Admin/Rbac/addNode',array('pid'=>$app['id'],'level'=>2))}>">添加控制器</a>]
+					[<a href="<{:U('Admin/Rbac/saveNode',array('id'=>$app['id'],'level'=>1))}>">修改</a>]
+					[<a href="__URL__/delNode?id=<{$app['id']}>&level=1">删除</a>]
+				</p>
+				<foreach name="app.child" item='action'>
+					<dl>
+						<dt>
+							<strong><{$action.title}></strong>
+							[<a href="<{:U('Admin/Rbac/addNode',array('pid'=>$action['id'],'level'=>3))}>">添加方法</a>]
+							[<a href="<{:U('Admin/Rbac/saveNode',array('id'=>$action['id'],'level'=>2))}>">修改</a>]
+							[<a href="__URL__/delNode?id=<{$action['id']}>&level=2">删除</a>]
+						</dt>
+						<foreach name="action.child" item='method'>
+							<dd>						
+								<span><{$method.title}></span>
+								[<a href="<{:U('Admin/Rbac/saveNode',array('id'=>$method['id'],'level'=>3))}>">修改</a>]
+								[<a href="__URL__/delNode?id=<{$method['id']}>&level=3">删除</a>]
+							</dd>
+						</foreach>
+					</dl>
+				</foreach>
+			</div>
+		</foreach>
+
+	</div>
+
+  </body>
+</html>

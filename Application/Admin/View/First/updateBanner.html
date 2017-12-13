@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title></title>
+    <script type="text/javascript" src="__JS__/jquery-1.7.2.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="__CSS__/top.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+  <div id="top">
+    <a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/banner">首页设置</a>&nbsp;>>&nbsp;<a href="__URL__/banner">导航图片</a>&nbsp;>>&nbsp;<a href="__URL__/updateBanner?id=<{$banner[id]}>">修改图片</a>
+    
+  </div>
+<div id="all" >
+<form action="__URL__/updateBannerHandle" method="post" enctype="multipart/form-data">
+  <table class="table table-bordered table-hover" >
+    <tr>
+      <td align="right" width='30%'>标题：</td>
+      <td><input class="form-control" type="text" name="title" style="width:200px" value="<{$banner.title}>"></td>
+    </tr> 
+    <tr>
+      <td align="right" width='30%'>内容：</td>
+      <td>
+        <textarea name="content" cols="50" rows="5">
+          <{$banner.content}>
+        </textarea>
+      </td>
+    </tr>
+    <tr>
+      <td align="right" width='30%'>文章链接地址：</td>
+      <td><input class="form-control" type="text" name="href" style="width:200px" value="<{$banner.href}>"></td>
+    </tr>
+    <tr>
+      <td align="right">排序：</td>
+      <td>
+        <input class="form-control" type="text" name="sort" style="width:200px" value="<{$banner.sort}>">
+      </td>
+    </tr>
+    <tr>
+      <td align="right">图片展示：</td>
+      <td>
+        <div id="photo" style="display:none">
+          <input type="file" name="photo" style="display:inline-block"><span style="color:red">（图片大小1000*270像素）</span>
+        </div>
+        <img src="__PUBLIC__/Uploads/<{$banner.src}>" width='600px' height='162px'>
+        <a class="btn btn-info btn-sm" id="change" style="margin:10px">更换图片</a>
+      </td>
+    </tr>
+    
+    <tr id="last">
+      <td colspan='2' align="center" id="submitp">
+        <input type="hidden" name="id" value="<{$banner.id}>">
+        <input class="btn btn-success btn-sm" type="submit" value="保存修改" id="submit">
+      </td>
+    </tr> 
+    
+  </table>
+  
+</form>
+    
+</div>
+    <script type="text/javascript">
+      $(function(){
+        $('#change').click(function(){
+          $(this).css('display','none').prev().css('display','none');
+          $('#photo').css('display','block');
+        });
+      })
+     
+    </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>-->
+    <!-- Include all compiled plugins (below), or include individual files as needed 
+    <script src="__JS__/bootstrap.min.js"></script>-->
+  </body>
+</html>

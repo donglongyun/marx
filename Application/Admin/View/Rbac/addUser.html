@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title></title>
+    <script type="text/javascript" src="__JS__/jquery-1.7.2.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="__CSS__/top.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <style type="text/css">
+
+  </style>
+  <script type="text/javascript">
+  	$(function(){ 
+  		$('.add_role').click(function(){ 
+  			var obj = $(this).parents('tr').clone(true);
+  			obj.find('.add_role').remove();//将其他行的“添加一个角色”按钮去掉
+  			$('#last').before(obj);
+  		});
+  		$('.del_role').click(function(){ 
+	  		$(this).parents('tr').remove();
+  		});
+  	});
+  </script>
+  <body>
+  	<div id="top">
+  		<a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/index">用户管理</a>&nbsp;>>&nbsp;<if condition="$user"><a href="__URL__/addUser?id=<{$id}>">修改角色</a><else/><a href="__URL__/addUser">添加用户</a></if>
+  	</div>
+	<div id="all" >
+		<form action="__URL__/addUserHandle" method="post">
+			<table class="table table-bordered table-hover" >
+				<tr>
+					<td align="right" width='30%'>用户账号：</td>
+					<td>
+						<if condition="$user"><{$user.username}>
+						<else/><input class="form-control" type="text" name='username'>
+						</if>				
+					</td>
+				</tr>
+				<if condition="$user"><else/><!--更改角色时，省略密码-->
+					<tr>
+						<td align="right">
+							<if condition="$user">新密码：
+							<else/>密码：
+							</if>		
+						</td>
+						<td>
+							<input class="form-control" type="password" name="password" >
+						</td>
+					</tr>
+					<tr>
+						<td align="right">确认密码：</td>
+						<td>
+							<input class="form-control" type="password" name="password2">
+						</td>
+					</tr>
+				</if>
+				<!--列出已有角色-->
+				<if condition="$user">
+					<volist name='user.role' id='v'>
+						<tr>
+							<td align="right">所属角色：</td>
+							<td>
+								<input type="hidden" name="role_id[]" value="<{$v.id}>">	
+								<{$v.name}><button type="button" class="btn btn-danger btn-sm del_role">取消</button>
+							</td>
+						</tr>
+					</volist>
+				</if>
+				<tr>
+					<td align="right">所属角色：</td>
+					<td>	
+						<select name="role_id[]">
+							<option value="">请选择角色</option>
+							<foreach name='role' item='v'>
+								<option value="<{$v['id']}>"><{$v.name}></option>
+							</foreach>
+						</select>
+						<button type="button" class="btn btn-primary btn-sm add_role">添加一个角色</button>
+						<button type="button" class="btn btn-danger btn-sm del_role">取消</button>
+					</td>
+				</tr>
+				<input type="hidden" name="id" value="<{$id}>">
+				<tr id="last">
+					<td colspan='2' align="center" id="submitp">
+						<input class="btn btn-success btn-sm" type="submit" value="保存添加" id="submit">
+					</td>
+				</tr> 
+				
+			</table>
+			
+		</form>
+			
+	</div>
+
+  </body>
+</html>

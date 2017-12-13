@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title></title>
+    <script type="text/javascript" src="__JS__/jquery-1.7.2.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="__CSS__/top.css" />
+   	<style type="text/css">
+   		th,td{ 
+   			text-align:center;
+   		}
+   	</style>
+    <script type="text/javascript">
+      function del(id){ 
+        if(confirm('确定要删除吗？')){ 
+          window.location = "__URL__/delRoll?id="+id;
+        }
+      }
+    </script>
+  </head>
+  
+  <body>
+	<div id="top">
+		<a href="__MODULE__/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="__URL__/roll">首页设置</a>&nbsp;>>&nbsp;<a href="__URL__/roll">滚动图片</a>
+	</div>
+	<div id="all" >
+		<a class='btn btn-primary' href="__URL__/addRoll" style="margin:5px">添加图片</a>
+		<form action="__URL__/sortRoll" method="post">
+			<table class="table table-bordered table-hover" >
+				<tr>
+					<th  width='30%'>图片展示</th>
+					<th  width='20%'>图片标题</th>
+					<th  width='20%'>文章链接地址</th>
+          <th  width='10%'>图片排序</th>
+					<th  width='20%'>操作</th>
+				</tr>
+				<volist name='roll' id='v'>
+					<tr>
+						<td><img src="__PUBLIC__/Uploads/<{$v.src}>" width='224px' height='145px'> </td>
+						<td><{$v.title}></td>
+            <td><{$v.href}></td>
+						<td><input class='form-control' type="text" name="<{$v.id}>" value="<{$v.sort}>" style="width:50%;margin:0 auto;text-align:center"></td>
+						<td>
+							[<a href="__URL__/updateRoll?id=<{$v['id']}>">修改</a>]
+              [<a href="javascript:del(<{$v['id']}>)">删除</a>]
+						</td>
+					</tr>
+				</volist>
+				<tr>
+					<td colspan="3"></td>
+					<td>
+						<input class="btn btn-success btn-sm" type="submit" value="排序" style="margin:0 auto;">
+					</td>
+					<td></td>
+				</tr>
+			</table>
+			
+		</form>
+			
+	</div>
+
+
+  </body>
+</html>
