@@ -10,6 +10,7 @@ body{background-color: #E5E5E5;}
     text-align: left;
     font-size: 15px;
     background-color: #F4F4F4;
+    color: #111111;
 }
 .topdec{
     width: 300px;
@@ -38,6 +39,7 @@ body{background-color: #E5E5E5;}
     top:220px;
     left: 920px;
     background-color:#F4F4F4;
+    color: #111111;
 }
 .topimg{
     position: absolute;
@@ -50,15 +52,20 @@ body{background-color: #E5E5E5;}
     z-index:2;
     border-radius: 15px;
 }
-.footer{
-    width: 1000px;
-    height: 80px;
-    margin: auto;
-    padding: 0;
-    font-size: 12px;
-    color: #000;
-    position: relative;
-    border-bottom: 3px solid rgb(1,104,199);
+footer{
+    clear: both;
+    width: 100%;
+    line-height: 25px;
+    font-family: "微软雅黑";
+    position: absolute;
+    color: #000000;
+    text-align: center;
+}
+.indexfoot{
+    top: 700px;
+}
+.detfoot{
+    top: 1100px;
 }
 /*.footer{
     text-align: center;
@@ -69,6 +76,7 @@ body{background-color: #E5E5E5;}
 .fixed-bottom {position: fixed;bottom: 0;width:100%;}
 a{
     text-decoration: none;
+    color: #111111;
 }
 .detail{
     position: absolute;
@@ -166,15 +174,38 @@ li{
 }
 .show{
     width: 600px;
-    height: auto;
+    height: 800px;
     position: absolute;
     top: 240px;
     left: 600px;
     border:1.5px solid #949494;
     font-size: 17px;
-    font-weight: bold;
+
     font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
+    scrollBar-face-color:green;
+    scrollBar-3dLight-color:orange;
+    scrollBar-darkshadow-color:blue;
+    scrollBar-shadow-color:yellow;
+    scrollBar-arrow-color:purple;
+    scrollBar-track-color:black;
+    scrollBar-base-color:pink;
 }
 .showtit{
-    border: 2px solid #1b6d85;
+
+}
+.activities{
+    position: absolute;
+    top:440px;
+    left: 610px;
+    width: 300px;
+    height: 240px;
+    border-radius: 8px;
+    background-color: #E8E8E8;
+}
+img{
+    border-radius: 8px;
+}
+.jieshao{
+    text-align: center;
+    white-space:nowrap;
 }

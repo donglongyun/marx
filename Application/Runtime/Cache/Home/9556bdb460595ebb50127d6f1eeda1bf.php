@@ -1,37 +1,18 @@
-<?php if (!defined('THINK_PATH')) exit();?><!--文章浏览页面-->
-﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <!--引入jQuery文件-->
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/core.js"></script>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/web/marx/Public/css/main.css">
     <link rel="javascript" href="/web/marx/Public/js/main.js">
-    <link rel="stylesheet" href="/web/marx/Public/css/ft-carousel.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <!-- <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>-->
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/web/marx/Public/js/ft-carousel.min.js"></script>
-    <script type="text/javascript">
-        $("#carousel_1").FtCarousel();
-
-        $("#carousel_2").FtCarousel({
-            index: 1,
-            auto: false
-        });
-
-        $("#carousel_3").FtCarousel({
-            index: 0,
-            auto: true,
-            time: 3000,
-            indicators: false,
-            buttons: true
-        });
-    </script>
     <title>马克思主义学院</title>
 </head>
     <img src="/web/marx/Public/images/head.png" alt="headimg" width="100%" class="topimg">
@@ -98,10 +79,30 @@
 
 
 <body>
-<div class="show" style="overflow:auto;">
-    <div class="showtit"><h3 style="text-align: center;" class=""><?php echo ($blogs[0]['title']); ?></h3><br>
-        <small><p style="float: right">作者：<?php echo ($blogs[0]['author']); ?>&nbsp;&nbsp;&nbsp;阅读量：<?php echo ($blogs[0]['click']); ?>&nbsp;&nbsp;</small></p><br></div><br>
-    <p><?php echo ($blogs[0]['content']); ?></p>
+<div class="show" style="text-align: center">
+    <h3 style="text-align: center">师资队伍</h3><br>
+    院长：<a href="<?php echo U('Show/index?id=307');?>">赵冰梅</a><br>
+    直属党支部书记：<a href="<?php echo U('Show/index?id=294');?>">吕健</a><br>
+    副院长：<a href="<?php echo U('Show/index?id=298');?>">曲洪波</a>、<a href="<?php echo U('Show/index?id=310');?>">周琳娜</a><br>
+    办公室主任：<a href="<?php echo U('Show/index?id=311');?>">仇梦欢</a><br>
+    办公室成员：<a href="<?php echo U('Show/index?id=308');?>">赵丹</a><br>
+    <br>
+    马克思主义中国化教研室主任：<a href="<?php echo U('Show/index?id=297');?>">齐艳霞</a><br>
+    成员：<a href="<?php echo U('Show/index?id=291');?>">李莹</a>、<a href="<?php echo U('Show/index?id=293');?>">卢海燕</a>、<a href="<?php echo U('Show/index?id=292');?>">刘春霞</a>、<a href="<?php echo U('Show/index?id=301');?>">王旭</a><br>
+    <br>
+    马克思主义基本原理教研室主任：<a href="<?php echo U('Show/index?id=287');?>">傅畅梅</a><br>
+    成员：<a href="<?php echo U('Show/index?id=289');?>">金梦兰</a>、<a href="<?php echo U('Show/index?id=288');?>">姜爱华</a>、<a href="<?php echo U('Show/index?id=286');?>">白蔚</a><br>
+    <br>
+    德育教研室主任：<a href="<?php echo U('Show/index?id=303');?>">岳宏杰</a><br>
+    成员：<a href="<?php echo U('Show/index?id=290');?>">李金华</a>、<a href="<?php echo U('Show/index?id=295');?>">马新凤</a>、<a href="<?php echo U('Show/index?id=299');?>">田克</a>、<a href="<?php echo U('Show/index?id=309');?>">郑晓娜</a><br>
+    <br>
+    文学艺术教研室主任：<a href="<?php echo U('Show/index?id=310');?>">周琳娜</a><br>
+    成员：<a href="<?php echo U('Show/index?id=312');?>">郭小伟</a>、<a href="<?php echo U('Show/index?id=304');?>">张彩霞</a>、<a href="<?php echo U('Show/index?id=306');?>">张晓茜</a><br>
+    <br>
+    心理研究所主任：<a href="<?php echo U('Show/index?id=305');?>">张澜</a><br>
+    成员：<a href="<?php echo U('Show/index?id=296');?>">欧阳辉</a>、<a href="<?php echo U('Show/index?id=302');?>">闫华</a>、<a href="<?php echo U('Show/index?id=300');?>">田雪</a><br>
+
+
 </div>
 </body>
 <footer class="detfoot" >

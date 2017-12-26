@@ -31,12 +31,14 @@ class ShowController extends Controller{
         $pid=M(cate)->where(array('id'=>$pid))->select();
         //var_dump($pid);
         $pid=$pid[0]['pid'];
-        $side=M(cate)->where(array("pid"=>$pid))->select();
+        $side=M(cate)->where(array("pid"=>$pid))->order('id desc')->select();
         //var_dump($side);
         $this->assign('side',$side);
         $this->display('sidebar');
 
     }
-
+public function iframe(){
+        $this->display('showdet');
+}
 
 }

@@ -10,16 +10,21 @@ use Think\Controller;
 //use Home\Controller\ShowController;
 class ListsController extends Controller{
     public function index($cid){
-        $lists=M(blog)->where(array("cid"=>$cid))->select();
+        $lists=M(blog)->where(array("cid"=>$cid))->order("id desc")->select();
+        $tit=M(cate)->where(array("id"=>$cid))->select();
         $this->assign("lists",$lists);
-        $this->display();
+        $this->assign("tit",$tit);
+        if($cid==5)
+            $this->display('teacher');
+        else
+            $this->display();
         $this->sidebar($cid);
         }
     public function sidebar($pid){
         $pid=M(cate)->where(array('id'=>$pid))->select();
         //var_dump($pid);
         $pid=$pid[0]['pid'];
-        $side=M(cate)->where(array("pid"=>$pid))->order('id')->select();
+        $side=M(cate)->where(array("pid"=>$pid))->order('id desc')->select();
         //var_dump($side);
         $this->assign('side',$side);
         $this->display('Show/sidebar');

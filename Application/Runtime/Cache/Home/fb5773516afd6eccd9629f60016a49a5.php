@@ -3,16 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <!--引入jQuery文件-->
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/core.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/web/marx/Public/css/main.css">
     <link rel="javascript" href="/web/marx/Public/js/main.js">
+    <link rel="stylesheet" href="/web/marx/Public/css/ft-carousel.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+   <!-- <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>-->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/web/marx/Public/js/ft-carousel.min.js"></script>
+    <script type="text/javascript">
+        $("#carousel_1").FtCarousel();
+
+        $("#carousel_2").FtCarousel({
+            index: 1,
+            auto: false
+        });
+
+        $("#carousel_3").FtCarousel({
+            index: 0,
+            auto: true,
+            time: 3000,
+            indicators: false,
+            buttons: true
+        });
+    </script>
     <title>马克思主义学院</title>
 </head>
     <img src="/web/marx/Public/images/head.png" alt="headimg" width="100%" class="topimg">
@@ -80,11 +98,12 @@
 
 <body>
 <div class="show"><middle><br>
+    <h3 style="text-align: center"><?php echo ($tit[0]['name']); ?></h3>
     <?php if(is_array($lists)): $i = 0; $__LIST__ = $lists;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="display:none;"><?php echo ($b=$vo["id"]); ?></p>&nbsp;&nbsp;&nbsp;
         <a href="<?php echo U('Show/index?id='.$b);?>"><?php echo ($vo['title']); ?></a><br><?php endforeach; endif; else: echo "" ;endif; ?>
 </middle></div>
 </body>
-<footer class="bottom container" style="text-align:center">
+<footer class="detfoot" >
     <a href="">沈航官网</a> |
     <a href="">数字沈航</a> |
     <a href="">沈航图书馆</a><br><br>

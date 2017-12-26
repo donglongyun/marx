@@ -1,8 +1,9 @@
+<!--文章浏览页面-->
 <include file="..\head" />
 <body>
-<div class="show">
+<div class="show" style="overflow:auto;">
     <div class="showtit"><h3 style="text-align: center;" class=""><{$blogs[0]['title']}></h3><br>
-        <small><p style="float: right">作者：<{$blogs[0]['author']}>&nbsp;阅读量：<{$blogs[0]['click']}></small></p><br></div><br>
+        <small><p style="float: right">作者：<{$blogs[0]['author']}>&nbsp;&nbsp;&nbsp;阅读量：<{$blogs[0]['click']}>&nbsp;&nbsp;</small></p><br></div><br>
     <p><{$blogs[0]['content']}></p>
 </div>
 </body>

@@ -1,6 +1,7 @@
 <include file="..\head" />
 <body>
 <div class="show"><middle><br>
+    <h3 style="text-align: center"><{$tit[0]['name']}></h3>
     <volist name="lists" id="vo">
         <p style="display:none;"><{$b=$vo.id}></p>&nbsp;&nbsp;&nbsp;
         <a href="<{:U('Show/index?id='.$b)}>"><{$vo['title']}></a><br>

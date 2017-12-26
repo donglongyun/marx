@@ -3,16 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <!--引入jQuery文件-->
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/core.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/web/marx/Public/css/main.css">
     <link rel="javascript" href="/web/marx/Public/js/main.js">
+    <link rel="stylesheet" href="/web/marx/Public/css/ft-carousel.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+   <!-- <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>-->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/web/marx/Public/js/ft-carousel.min.js"></script>
+    <script type="text/javascript">
+        $("#carousel_1").FtCarousel();
+
+        $("#carousel_2").FtCarousel({
+            index: 1,
+            auto: false
+        });
+
+        $("#carousel_3").FtCarousel({
+            index: 0,
+            auto: true,
+            time: 3000,
+            indicators: false,
+            buttons: true
+        });
+    </script>
     <title>马克思主义学院</title>
 </head>
     <img src="/web/marx/Public/images/head.png" alt="headimg" width="100%" class="topimg">
@@ -81,10 +99,10 @@
 <body>
 <br>
 <div class="newslist">
-    <div class="topdec"><b>新闻动态</b></div>
+    <div class="topdec"><a href="<?php echo U('Lists/index?cid=1');?>" style="color: white"><b>新闻动态</b>>>></a></div>
     <div><middle>
         <?php if(is_array($newstit)): $i = 0; $__LIST__ = $newstit;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="display:none;"><?php echo ($b=$vo["id"]); ?></p>
-        <a href="<?php echo U('Show/index?id='.$b);?>"><?php echo (substr($vo['title'],0,51)); ?></a><br><?php endforeach; endif; else: echo "" ;endif; ?>
+        <a href="<?php echo U('Show/index?id='.$b);?>" ><?php echo (substr($vo['title'],0,51)); ?></a><br><?php endforeach; endif; else: echo "" ;endif; ?>
     </middle></div>
 </div>
 <div class="flowpic">
@@ -117,23 +135,35 @@
     </div>-->
     <div id="myCarousel" class="carousel slide">
         <!-- 轮播（Carousel）指标 -->
-        <ol class="carousel-indicators">
+        <!--<ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+        </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="/web/marx/Public/images/toppic_1.png" alt="First slide">
+                <img src="/web/marx/Public/images/1.png" alt="First slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/toppic_1.png" alt="Second slide">
+                <img src="/web/marx/Public/images/2.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/toppic_1.png" alt="Third slide">
+                <img src="/web/marx/Public/images/3.png" alt="Third slide">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="/web/marx/Public/images/4.png" alt="Second slide">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="/web/marx/Public/images/5.png" alt="Second slide">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="/web/marx/Public/images/6.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
         </div>
@@ -147,7 +177,7 @@
     </div>
 </div>
 <div class="notice">
-    <div class="topdec"><b>公告栏</b></div>
+    <div class="topdec" ><a href="<?php echo U('Lists/index?cid=2');?>" style="color: white"><b>公告栏</b>>>></a></div>
     <div><middle>
         <?php if(is_array($noticetit)): $i = 0; $__LIST__ = $noticetit;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="display:none;"><?php echo ($b=$vo["id"]); ?></p>
             <a href="<?php echo U('Show/index?id='.$b);?>"><?php echo (substr($vo['title'],0,51)); ?></a><br><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -155,21 +185,66 @@
     </volist>
 </div>
 <div class="piclinks">
-
+    <a href=""> <img src="/web/marx/Public/images/rightdown/1.gif" alt=""></a>
+    <a href=""> <img src="/web/marx/Public/images/rightdown/2.gif" alt=""></a>
+    <a href=""> <img src="/web/marx/Public/images/rightdown/3.gif" alt=""></a>
 </div>
 <div class="activities">
-
+    <div id="myCarousel1" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <!--<ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>-->
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner" style="white-space:nowrap;">
+            <div class="item active">
+                <img src="/web/marx/Public/images/xia/1.png" alt="First slide">
+                <center><span class="jieshao" style="text-align: center">wewewe</span></center>
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="/web/marx/Public/images/2.png" alt="Second slide">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="/web/marx/Public/images/3.png" alt="Third slide">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="/web/marx/Public/images/4.png" alt="Second slide">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="/web/marx/Public/images/5.png" alt="Second slide">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img src="/web/marx/Public/images/6.png" alt="Second slide">
+                <div class="carousel-caption"></div>
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="carousel-control left" href="#myCarousel1"
+           data-slide="prev">&lsaquo;
+        </a>
+        <a class="carousel-control right" href="#myCarousel1"
+           data-slide="next">&rsaquo;
+        </a>
+    </div>
 </div>
 <div class="links">
     <div class="topdec"><b>教学资源</b></div>
-    <img src="/web/marx/Public/images/links/friendlink1.png" width="300px" height="40px" alt="">
-    <img src="/web/marx/Public/images/links/friendlink2.png" width="300px" height="40px" alt="">
-    <img src="/web/marx/Public/images/links/friendlink3.png" width="300px" height="40px" alt="">
-    <img src="/web/marx/Public/images/links/friendlink4.png" width="300px" height="40px" alt="">
-    <img src="/web/marx/Public/images/links/friendlink5.png" width="300px" height="40px" alt="">
+    <a href="http://www.moe.edu.cn/"><img src="/web/marx/Public/images/links/friendlink1.png" width="300px" height="40px" alt=""></a>
+    <a href="https://www.sinoss.net/index.html"> <img src="/web/marx/Public/images/links/friendlink2.png" width="300px" height="40px" alt=""></a>
+    <a href="http://www.npopss-cn.gov.cn/"><img src="/web/marx/Public/images/links/friendlink3.png" width="300px" height="40px" alt=""></a>
+    <a href="http://www.stuln.com/"><img src="/web/marx/Public/images/links/friendlink4.png" width="300px" height="40px" alt=""></a>
+    <a href="http://www.upln.cn/"><img src="/web/marx/Public/images/links/friendlink5.png" width="300px" height="40px" alt=""></a>
+
 </div>
 </body>
-<footer class="bottom container" style="text-align:center">
+<footer class="indexfoot" >
     <a href="">沈航官网</a> |
     <a href="">数字沈航</a> |
     <a href="">沈航图书馆</a><br><br>
