@@ -1,0 +1,114 @@
+[ 2017-12-27T00:09:45+08:00 ] ::1 /web/marx/index.php/Admin/Blog/addBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019787s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `tp_cate` ORDER BY sort  [ RunTime:0.0147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 44 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 52 行.
+NOTIC: [8] Undefined variable: blog D:\wamp64\www\web\marx\Application\Runtime\Cache\Admin\23baf280ad883decfca66f1b5e829b42.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017391s ]
+
+[ 2017-12-27T00:10:00+08:00 ] ::1 /web/marx/index.php/Admin/Blog/runAddBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0228s ]
+SQL: INSERT INTO `tp_blog` (`title`,`content`,`author`,`time`,`click`,`cid`) VALUES ('关于咨询','<p style=\"text-align:center\"><br/></p><p style=\"line-height: 150%\"><strong><span style=\"font-family: 宋体\">什么是心理咨询？</span></strong></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">　　心理咨询是一种人际关系，在这种关系中，心理咨询专业人员运用心理学的理论和技术，就来访者的心理困惑，与其一起体味、分析、决断与行动，协助来访者走出困惑、不断成长。心理咨询对来访者负责，替来访者保密，尊重来访者的隐私权。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">　　1.心理咨询解决的是心理问题或由心理问题引发的行为问题，而不是处理生活中的具体问题。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">　　2.并非“有病才去心理咨询”。不少人都认为，只有心理有病才去心理咨询，还有不少同学有了心理问题也不敢去咨询，怕别人说他“有病”。实际上这是对心理咨询的一种误解。一般人在学习、生活中遇到心理困扰都可以来咨询。</span></p><p style=\"text-indent: 28px;line-height: 150%\"><span style=\";line-height:150%;font-family:宋体;color:#222222\">3.</span><span style=\";line-height:150%;font-family:宋体;color:#222222\">心理咨询并非都能“立竿见影”。不少人认为心理咨询一两次就得解决问题，否则就不能令人信服，这种想法是对心理咨询的一种片面理解。实际上，有些心理问题特别是心理障碍不是一时形成的，有的甚至从童年就开始伴随。冰冻三尺非一日之寒。因此，改变也不可能一蹴而就，短时间内完成。所以，对心理咨询不能期望“立竿见影”。</span></p><p style=\"line-height: 150%\"><strong><span style=\"font-family: 宋体\">&nbsp;</span></strong><strong><span style=\"font-family: 宋体\">心理咨询的原则</span></strong></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">　　1.保密原则：未经当事人同意，咨询场合中的任何情况不泄露给任何个人和机关。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">　　2.无条件积极关注原则:本中心对前来咨询者给于无条件积极关注，努力使每位需要帮助的同学得到关心与爱护。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">　　3.自愿原则:到本中心求询完全出于自愿，来者不拒去者不追。咨询关系的建立或结束，都无任何意义上的强制。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">　　4.伦理原则:本中心恪守道德规范，绝不侵害求询者利益，在咨询过程中，不对求询者表现出任何超出咨访关系的爱憎或欲求。</span></p><p><span style=\"font-size:12px;font-family:宋体;color:#222222\">&nbsp;</span></p><p style=\"line-height: 150%\"><strong><span style=\"font-family: 宋体\">保密制度</span></strong></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">1.</span><span style=\"line-height: 150%;font-family: 宋体\">尊重学生的人格和保护学生的隐私，为学生保守秘密。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">2.</span><span style=\"line-height: 150%;font-family: 宋体\">妥善处理学生的咨询来信，特别是学生的隐私信件。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">3.</span><span style=\"line-height: 150%;font-family: 宋体\">保管好咨询记录，不得借人翻阅。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">4.</span><span style=\"line-height: 150%;font-family: 宋体\">不得向外人透露学生的智力、情感纠纷等隐私情况。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">5.</span><span style=\"line-height: 150%;font-family: 宋体\">不得将学生的隐私作为教育案例，在教育学生的场合公开传播。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">6.</span><span style=\"line-height: 150%;font-family: 宋体\">不得将学生心理的某些缺陷作为笑话，或起外号。</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">7.</span><span style=\"line-height: 150%;font-family: 宋体\">不得将学生的家庭经济、父母婚姻感情等隐私情况透露给任何人。 </span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">8.</span><span style=\"line-height: 150%;font-family: 宋体\">不能随意在文章中引用学生的隐私，确需要时必须隐去真实姓名。 </span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">&nbsp;</span></p><p style=\"line-height: 150%\"><span style=\"line-height: 150%;font-family: 宋体\">&nbsp;</span></p><p><br/></p>','管理员','1514304584','100','21') [ RunTime:0.0321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2017-12-27T00:10:01+08:00 ] ::1 /web/marx/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_blog` WHERE ( del=0 ) LIMIT 1   [ RunTime:0.0227s ]
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0227s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`click`,`cid` FROM `tp_blog` WHERE `del` = 0 ORDER BY time DESC LIMIT 0,10   [ RunTime:0.0246s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0227s ]
+SQL: SELECT `name` FROM `tp_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT `name` FROM `tp_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0219s ]
+SQL: SELECT `name` FROM `tp_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT `name` FROM `tp_cate` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0218s ]
+SQL: SELECT `name` FROM `tp_cate` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0219s ]
+SQL: SELECT `name` FROM `tp_cate` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SELECT `name` FROM `tp_cate` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0218s ]
+SQL: SELECT `name` FROM `tp_cate` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0236s ]
+SQL: SELECT `name` FROM `tp_cate` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.0281s ]
+SQL: SELECT `name` FROM `tp_cate` WHERE ( 1=1 AND id='20' ) LIMIT 1   [ RunTime:0.0218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+

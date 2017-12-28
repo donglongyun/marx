@@ -1,5 +1,4 @@
 <?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <!--引入jQuery文件-->
@@ -33,6 +32,7 @@
     </script>
     <title>马克思主义学院</title>
 </head>
+<body>
     <img src="/web/marx/Public/images/head.png" alt="headimg" width="100%" class="topimg">
 
     <div class="toplink">
@@ -80,11 +80,11 @@
         <li><a href="#" style="color: white">心理健康之家 </a>
             <ul>
                 <li><a href="<?php echo U('Lists/index?cid=21');?>">中心概况</a></li>
-                <li><a href="<?php echo U('Lists/index?cid=22');?>">心理园地</a></li>
+                <li><a href="<?php echo U('Show/index?id=356');?>">心理园地</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=23');?>">心理测试</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=24');?>">心理活动</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=25');?>">心灵烛台</a></li>
-                <li><a href="<?php echo U('Lists/index?cid=26');?>">关于我们</a></li>
+                <li><a href="<?php echo U('Show/index?id=384');?>">关于我们</a></li>
             </ul>
         </li>
         <li><a href="<?php echo U('Lists/index?cid=27');?>" style="color: white">下载中心</a>
@@ -92,7 +92,6 @@
         </li>
     </ul>
     </div>
-</header>
 
 
 
@@ -185,9 +184,9 @@
     </volist>
 </div>
 <div class="piclinks">
-    <a href=""> <img src="/web/marx/Public/images/rightdown/1.gif" alt=""></a>
-    <a href=""> <img src="/web/marx/Public/images/rightdown/2.gif" alt=""></a>
-    <a href=""> <img src="/web/marx/Public/images/rightdown/3.gif" alt=""></a>
+    <a href="http://sauqjj.com/"> <img src="/web/marx/Public/images/rightdown/1.gif" alt="" width="300px" height="75px"></a>
+    <a href="<?php echo U('Show/showdet?cid=3');?>"> <img src="/web/marx/Public/images/rightdown/21.gif" alt="" width="300px" height="75px"></a>
+    <a href="<?php echo U('Lists/index?cid=4');?>"> <img src="/web/marx/Public/images/rightdown/3.gif" alt="" width="300px" height="75px"></a>
 </div>
 <div class="activities">
     <div id="myCarousel1" class="carousel slide">
@@ -201,27 +200,27 @@
         <div class="carousel-inner" style="white-space:nowrap;">
             <div class="item active">
                 <img src="/web/marx/Public/images/xia/1.png" alt="First slide">
-                <center><span class="jieshao" style="text-align: center">wewewe</span></center>
+                <center><span class="jieshao" style="text-align: center"></span></center>
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/2.png" alt="Second slide">
+                <img src="/web/marx/Public/images/xia/2.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/3.png" alt="Third slide">
+                <img src="/web/marx/Public/images/xia/3.png" alt="Third slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/4.png" alt="Second slide">
+                <img src="/web/marx/Public/images/xia/4.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/5.png" alt="Second slide">
+                <img src="/web/marx/Public/images/xia/5.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/6.png" alt="Second slide">
+                <img src="/web/marx/Public/images/xia/6.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
         </div>
@@ -247,7 +246,8 @@
 <footer class="indexfoot" >
     <a href="">沈航官网</a> |
     <a href="">数字沈航</a> |
-    <a href="">沈航图书馆</a><br><br>
-    版权所有 沈阳航空航天大学马克思主义学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;辽宁省沈阳市沈北新区道义南大街37号  联系电话：89724408
+    <a href="">沈航图书馆</a><br>
+    <a href="mailto:316433179@qq.com" style="color: #232323; text-decoration: none;">Power by dlink </a><br>
+    版权所有 沈阳航空航天大学马克思主义学院  &nbsp;&nbsp;&nbsp;辽宁省沈阳市沈北新区道义南大街37号  联系电话：89724408
     <br>&nbsp;
 </footer>

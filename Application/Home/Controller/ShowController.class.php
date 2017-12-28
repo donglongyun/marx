@@ -13,6 +13,10 @@ class ShowController extends Controller{
         $blogs=M(blog)->where(array('id'=>$id))->select();
         $this->assign("blogs",$blogs);
         $pid=$blogs[0]['cid'];
+        $click=$blogs[0]['click'];
+        $click=$click+1;
+        $blogc=M(blog);
+        $blogc-> where('id='.$id)->setField('click',$click);
         //var_dump($pid);
         $this->display();
         //var_dump($blogs);

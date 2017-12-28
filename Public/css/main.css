@@ -189,6 +189,7 @@ li{
     scrollBar-arrow-color:purple;
     scrollBar-track-color:black;
     scrollBar-base-color:pink;
+    font-weight: bold;
 }
 .showtit{
 
@@ -208,4 +209,11 @@ img{
 .jieshao{
     text-align: center;
     white-space:nowrap;
+}
+.piclinks{
+    width: 300px;
+    height: 240px;
+    position: absolute;
+    top: 440px;
+    left: 300px;
 }

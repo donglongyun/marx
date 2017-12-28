@@ -3342,3 +3342,2851 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
 
+[ 2017-12-26T16:06:57+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0019s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2017-12-26T16:07:01+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0013s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2017-12-26T16:07:03+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0011s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0005s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2017-12-26T16:07:30+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0014s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2017-12-26T16:07:35+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0014s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-12-26T16:07:38+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0014s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2017-12-26T16:07:38+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0018s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2017-12-26T16:17:59+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0015s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2017-12-26T16:18:35+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0012s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2017-12-26T16:18:39+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0010s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2017-12-26T16:18:41+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0017s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2017-12-26T16:18:41+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0015s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2017-12-26T16:18:42+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0012s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2017-12-26T16:18:43+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0012s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0007s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2017-12-26T16:18:44+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0009s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2017-12-26T16:18:45+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0013s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+
+[ 2017-12-26T16:18:46+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0011s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2017-12-26T16:18:47+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0009s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2017-12-26T16:25:33+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0011s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2017-12-26T16:25:36+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0010s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2017-12-26T16:38:44+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0008s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2017-12-26T16:39:16+08:00 ] ::1 /web/marx/index.php/Home/Show/showdet/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 3  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 34 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.028929s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034562s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.038503s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-12-26T16:39:24+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0006s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2017-12-26T16:39:26+08:00 ] ::1 /web/marx/index.php/Home/Show/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_blog` WHERE `id` = 3  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 103 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 103 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 34 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = null ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005323s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008543s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-12-26T16:39:29+08:00 ] ::1 /web/marx/index.php/Home/Show/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_blog` WHERE `id` = 3  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 102 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 103 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 103 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 34 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = null ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015582s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006272s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009502s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-12-26T16:39:41+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0008s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2017-12-26T16:39:43+08:00 ] ::1 /web/marx/index.php/Home/Show/index/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+ERR: 参数错误或者未定义:id
+
+[ 2017-12-26T16:40:33+08:00 ] ::1 /web/marx/index.php/Home/Show/showdet/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 3  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 34 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.029510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006422s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010618s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2017-12-26T16:41:13+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0006s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-12-26T16:41:15+08:00 ] ::1 /web/marx/index.php/Home/Show/showdet/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 3  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 34 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014931s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007437s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011342s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2017-12-26T16:41:25+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0008s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2017-12-26T16:41:28+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033903s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006661s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008981s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2017-12-26T16:41:54+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0006s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2017-12-26T16:41:57+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016838s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007085s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010590s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2017-12-26T16:43:53+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0006s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2017-12-26T16:45:45+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0007s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2017-12-26T19:40:53+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0029s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0007s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-12-26T20:47:38+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 5 ORDER BY id desc  [ RunTime:0.1242s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 5  [ RunTime:0.0141s ]
+ERR: 模板不存在:./Application/Home/View/Lists/teacher.html
+
+[ 2017-12-26T20:48:01+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0233s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0244s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003061s ]
+
+[ 2017-12-26T20:48:03+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 5 ORDER BY id desc  [ RunTime:0.1195s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 5  [ RunTime:0.0255s ]
+ERR: 模板不存在:./Application/Home/View/Lists/teacher.php.html
+
+[ 2017-12-26T20:48:43+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 5 ORDER BY id desc  [ RunTime:0.1513s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 5  [ RunTime:0.0223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 5  [ RunTime:0.0278s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.089591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021636s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.054834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.075903s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2017-12-26T20:53:30+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0244s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0249s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0230s ]
+ERR: 模板不存在:./Application/Home/View/Index/head.html
+
+[ 2017-12-26T20:53:43+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0233s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0225s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035559s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038095s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.038595s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2017-12-26T20:54:34+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0276s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0218s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.079173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007632s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.052920s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-12-26T20:54:50+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0238s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0223s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.064540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006542s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.058522s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-12-26T20:54:51+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0233s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0270s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037064s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.037597s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+ERR: 模板不存在:./Application/Home/View/Index/..\foot.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-12-26T20:55:12+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0232s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0248s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013925s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009590s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010058s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036589s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.047570s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001906s ]
+
+[ 2017-12-26T20:57:14+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0302s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0461s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016826s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036848s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.037379s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2017-12-26T21:01:55+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003090s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0310s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0305s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0305s ]
+ERR: 模板不存在:./Application/Home/View/../head.html
+
+[ 2017-12-26T21:02:07+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0235s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0253s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014577s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010699s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011192s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2017-12-26T21:08:16+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0313s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0307s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-12-26T21:17:42+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0315s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0306s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001712s ]
+
+[ 2017-12-26T21:17:45+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0364s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0305s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2017-12-26T23:14:29+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.048560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048691s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0238s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0226s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.249937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044899s ]
+
+[ 2017-12-26T23:14:31+08:00 ] ::1 /web/marx/index.php/Home/Show/showdet/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 3  [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Show/..\head.html): failed to open stream: No such file or directory D:\wamp64\www\web\marx\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Show/..\footer.html): failed to open stream: No such file or directory D:\wamp64\www\web\marx\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 3  [ RunTime:0.0310s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 34 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.130156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027556s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.095984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.123152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2017-12-26T23:15:56+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0194s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0163s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-12-26T23:15:59+08:00 ] ::1 /web/marx/index.php/Home/Show/showdet/cid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 3  [ RunTime:0.0226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 3  [ RunTime:0.0263s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ShowController.class.php 第 34 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.101843s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006706s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.073567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.079655s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-12-26T23:16:01+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0240s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0257s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007640s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056949s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-12-26T23:16:04+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 5 ORDER BY id desc  [ RunTime:0.0765s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 5  [ RunTime:0.0219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 5  [ RunTime:0.0218s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.097493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006247s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.045849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.051644s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2017-12-26T23:16:06+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 6 ORDER BY id desc  [ RunTime:0.0716s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 6  [ RunTime:0.0218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 6  [ RunTime:0.0221s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.059895s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007267s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.045928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.052756s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2017-12-26T23:16:08+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 7 ORDER BY id desc  [ RunTime:0.0222s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 7  [ RunTime:0.0219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 7  [ RunTime:0.0217s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 30 ORDER BY id desc  [ RunTime:0.0221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.055741s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005918s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.045614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.051303s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2017-12-26T23:16:10+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 12 ORDER BY id desc  [ RunTime:0.0310s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 12  [ RunTime:0.0308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 12  [ RunTime:0.0306s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 31 ORDER BY id desc  [ RunTime:0.0329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.076648s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005826s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.065522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.070767s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-12-26T23:16:12+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 13 ORDER BY id desc  [ RunTime:0.0246s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 13  [ RunTime:0.0236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 13  [ RunTime:0.0216s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 31 ORDER BY id desc  [ RunTime:0.0219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.055736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005845s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.045613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.050941s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-12-26T23:16:14+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 14 ORDER BY id desc  [ RunTime:0.0147s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 14  [ RunTime:0.0147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 14  [ RunTime:0.0145s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 31 ORDER BY id desc  [ RunTime:0.0144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.042515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005404s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.031011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.035825s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-12-26T23:16:15+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 15 ORDER BY id desc  [ RunTime:0.0147s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 15  [ RunTime:0.0157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 15  [ RunTime:0.0144s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 32 ORDER BY id desc  [ RunTime:0.0146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.044432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006735s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.031453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.037377s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-12-26T23:16:17+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 16 ORDER BY id desc  [ RunTime:0.0490s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0257s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 16  [ RunTime:0.0229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 16  [ RunTime:0.0227s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 32 ORDER BY id desc  [ RunTime:0.0227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.061277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005517s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.047269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.052236s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2017-12-26T23:16:19+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 17 ORDER BY id desc  [ RunTime:0.0232s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 17  [ RunTime:0.0229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 17  [ RunTime:0.0258s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 32 ORDER BY id desc  [ RunTime:0.0231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.062043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005432s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.051206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055938s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2017-12-26T23:16:20+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 18 ORDER BY id desc  [ RunTime:0.0695s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 18  [ RunTime:0.0222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 18  [ RunTime:0.0225s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 33 ORDER BY id desc  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.061647s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007003s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055996s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2017-12-26T23:16:22+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 19 ORDER BY id desc  [ RunTime:0.0151s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 19  [ RunTime:0.0172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 19  [ RunTime:0.0143s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 33 ORDER BY id desc  [ RunTime:0.0173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.045138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006185s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.033913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.039717s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2017-12-26T23:16:24+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 20 ORDER BY id desc  [ RunTime:0.0227s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 20  [ RunTime:0.0237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 20  [ RunTime:0.0219s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 33 ORDER BY id desc  [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.056815s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006222s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.045843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.051562s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-12-26T23:16:26+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 21 ORDER BY id desc  [ RunTime:0.0225s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 21  [ RunTime:0.0225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 21  [ RunTime:0.0231s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 34 ORDER BY id desc  [ RunTime:0.0227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.059060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006456s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.047678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.053673s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2017-12-26T23:16:28+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 27 ORDER BY id desc  [ RunTime:0.0304s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 27  [ RunTime:0.0303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 27  [ RunTime:0.0301s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 111 ORDER BY id desc  [ RunTime:0.0304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.072913s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005794s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.062201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.067632s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2017-12-26T23:16:39+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0227s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0244s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002828s ]
+
+[ 2017-12-26T23:23:13+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0315s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0304s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2017-12-26T23:23:15+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0237s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0269s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.085254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006676s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.051438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.057573s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-12-26T23:23:55+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0157s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0143s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.066630s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006344s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.036495s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2017-12-26T23:24:33+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0316s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0303s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.096902s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020728s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.063453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.083017s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2017-12-26T23:24:41+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0230s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0220s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.079493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006066s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.046251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.051699s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-12-26T23:25:06+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0157s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0140s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.066663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006545s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.036572s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2017-12-26T23:25:09+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/316433179@qq.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 316433179 ORDER BY id desc  [ RunTime:0.0308s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 316433179  [ RunTime:0.0305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Runtime\Cache\Home\fb5773516afd6eccd9629f60016a49a5.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 316433179  [ RunTime:0.0305s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 26 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = null ORDER BY id desc  [ RunTime:0.0539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.097726s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005258s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.086649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.091212s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-12-26T23:25:16+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0237s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0222s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.058144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006259s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.046550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.052311s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2017-12-26T23:25:38+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0153s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0138s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.063159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006533s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.029572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.035582s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2017-12-26T23:26:20+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0320s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0308s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.098175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007984s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.063323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.070930s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2017-12-26T23:30:06+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 4 ORDER BY id desc  [ RunTime:0.0154s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 4  [ RunTime:0.0139s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 29 ORDER BY id desc  [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.063122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006762s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.036191s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-12-26T23:30:40+08:00 ] ::1 /web/marx/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Use of undefined constant Blog - assumed 'Blog' D:\wamp64\www\web\marx\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0230s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 1 ORDER BY time desc LIMIT 8   [ RunTime:0.0222s ]
+SQL: SELECT `title`,`id` FROM `tp_blog` WHERE `cid` = 2 ORDER BY time desc LIMIT 8   [ RunTime:0.0223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-12-26T23:30:44+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 21 ORDER BY id desc  [ RunTime:0.0235s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 21  [ RunTime:0.0273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 21  [ RunTime:0.0231s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 34 ORDER BY id desc  [ RunTime:0.0243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.061101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008540s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.049403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.057530s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2017-12-26T23:30:48+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 22 ORDER BY id desc  [ RunTime:0.0236s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 22  [ RunTime:0.0234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 22  [ RunTime:0.0226s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 34 ORDER BY id desc  [ RunTime:0.0223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.059021s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006769s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.046808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.053053s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-12-26T23:30:50+08:00 ] ::1 /web/marx/index.php/Home/Lists/index/cid/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8] Use of undefined constant blog - assumed 'blog' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_blog` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `tp_blog` WHERE `cid` = 23 ORDER BY id desc  [ RunTime:0.0229s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 23  [ RunTime:0.0228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 24 行.
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 23  [ RunTime:0.0224s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp64\www\web\marx\Application\Home\Controller\ListsController.class.php 第 27 行.
+SQL: SELECT * FROM `tp_cate` WHERE `pid` = 34 ORDER BY id desc  [ RunTime:0.0263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.061036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006392s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.050573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056510s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php:95) D:\wamp64\www\web\marx\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+

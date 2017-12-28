@@ -1,6 +1,5 @@
 <?php if (!defined('THINK_PATH')) exit();?><!--文章浏览页面-->
 ﻿<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <!--引入jQuery文件-->
@@ -34,6 +33,7 @@
     </script>
     <title>马克思主义学院</title>
 </head>
+<body>
     <img src="/web/marx/Public/images/head.png" alt="headimg" width="100%" class="topimg">
 
     <div class="toplink">
@@ -81,11 +81,11 @@
         <li><a href="#" style="color: white">心理健康之家 </a>
             <ul>
                 <li><a href="<?php echo U('Lists/index?cid=21');?>">中心概况</a></li>
-                <li><a href="<?php echo U('Lists/index?cid=22');?>">心理园地</a></li>
+                <li><a href="<?php echo U('Show/index?id=356');?>">心理园地</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=23');?>">心理测试</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=24');?>">心理活动</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=25');?>">心灵烛台</a></li>
-                <li><a href="<?php echo U('Lists/index?cid=26');?>">关于我们</a></li>
+                <li><a href="<?php echo U('Show/index?id=384');?>">关于我们</a></li>
             </ul>
         </li>
         <li><a href="<?php echo U('Lists/index?cid=27');?>" style="color: white">下载中心</a>
@@ -93,7 +93,6 @@
         </li>
     </ul>
     </div>
-</header>
 
 
 
@@ -107,7 +106,10 @@
 <footer class="detfoot" >
     <a href="">沈航官网</a> |
     <a href="">数字沈航</a> |
-    <a href="">沈航图书馆</a><br><br>
-    版权所有 沈阳航空航天大学马克思主义学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;辽宁省沈阳市沈北新区道义南大街37号  联系电话：89724408
+    <a href="">沈航图书馆</a><br>
+    <a href="mailto:316433179@qq.com" style="color: #232323; text-decoration: none;">Power by dlink </a><br>
+    版权所有 沈阳航空航天大学马克思主义学院  &nbsp;&nbsp;&nbsp;辽宁省沈阳市沈北新区道义南大街37号  联系电话：89724408
     <br>&nbsp;
 </footer>
+</body>
+</html>
