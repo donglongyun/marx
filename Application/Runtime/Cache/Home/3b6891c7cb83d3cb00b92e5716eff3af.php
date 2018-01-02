@@ -36,7 +36,7 @@
 <body>
     <img src="/web/marx/Public/images/head.png" alt="headimg" width="100%" class="topimg">
 
-    <div class="toplink">
+    <div class="toplink" style="z-index: 3 ">
         <ul id="nav" style="border-radius: 10px 10px 0px 0px">
         <li><a href="<?php echo U('Index/index');?>" style="color: white">首页</a>
         </li>

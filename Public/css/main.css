@@ -11,6 +11,7 @@ body{background-color: #E5E5E5;}
     font-size: 15px;
     background-color: #F4F4F4;
     color: #111111;
+    overflow: hidden;
 }
 .topdec{
     width: 300px;
@@ -40,6 +41,7 @@ body{background-color: #E5E5E5;}
     left: 920px;
     background-color:#F4F4F4;
     color: #111111;
+    overflow: hidden;
 }
 .topimg{
     position: absolute;
@@ -182,13 +184,13 @@ li{
     font-size: 17px;
 
     font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
-    scrollBar-face-color:green;
+    /*scrollBar-face-color:green;
     scrollBar-3dLight-color:orange;
     scrollBar-darkshadow-color:blue;
     scrollBar-shadow-color:yellow;
     scrollBar-arrow-color:purple;
     scrollBar-track-color:black;
-    scrollBar-base-color:pink;
+    scrollBar-base-color:pink;*/
     font-weight: bold;
 }
 .showtit{
@@ -204,7 +206,7 @@ li{
     background-color: #E8E8E8;
 }
 img{
-    border-radius: 8px;
+    border-radius: 3px;
 }
 .jieshao{
     text-align: center;
@@ -217,3 +219,6 @@ img{
     top: 440px;
     left: 300px;
 }
+#rollCon{width: 80%;text-align: center;display: block;overflow: hidden;color: black;height: 35%;position: absolute;top: 55%;left: 10%;}
+#rollSubject{height: auto;}
+#rollCopy{height: auto;}

@@ -6,7 +6,7 @@
     <div><middle>
         <volist name="newstit" id="vo">
         <p style="display:none;"><{$b=$vo.id}></p>
-        <a href="<{:U('Show/index?id='.$b)}>" ><{$vo['title']|substr=0,51}></a><br>
+        <a href="<{:U('Show/index?id='.$b)}>" ><{$vo['title']}></a><br><br>
     </volist>
     </middle></div>
 </div>
@@ -47,6 +47,7 @@
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner">
+            <div style="position: absolute;left: 120px;top: 10px;z-index: 2;color: white">学生活动</div>
             <div class="item active">
                 <img src="__PUBLIC__/images/1.png" alt="First slide">
                 <div class="carousel-caption"></div>
@@ -83,14 +84,14 @@
 </div>
 <div class="notice">
     <div class="topdec" ><a href="<{:U('Lists/index?cid=2')}>" style="color: white"><b>公告栏</b>>>></a></div>
-    <div><middle>
+    <marquee behavior="scroll" direction="up" scrollamount="3" onmouseover=this.stop() onmouseout=this.start()><middle>
         <volist name="noticetit" id="vo">
             <p style="display:none;"><{$b=$vo.id}></p>
-            <a href="<{:U('Show/index?id='.$b)}>"><{$vo['title']|substr=0,51}></a><br>
+            <a href="<{:U('Show/index?id='.$b)}>"><{$vo['title']}></a><br><br>
         </volist>
-    </middle></div>
-    </volist>
+    </middle></marquee>
 </div>
+
 <div class="piclinks">
     <a href="http://sauqjj.com/"> <img src="__PUBLIC__/images/rightdown/1.gif" alt="" width="300px" height="75px"></a>
     <a href="<{:U('Show/showdet?cid=3')}>"> <img src="__PUBLIC__/images/rightdown/21.gif" alt="" width="300px" height="75px"></a>
@@ -106,6 +107,7 @@
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner" style="white-space:nowrap;">
+            <div style="position: absolute;left: 120px;top: 10px;z-index: 2;color: white">学院风采</div>
             <div class="item active">
                 <img src="__PUBLIC__/images/xia/1.png" alt="First slide">
                 <center><span class="jieshao" style="text-align: center"></span></center>

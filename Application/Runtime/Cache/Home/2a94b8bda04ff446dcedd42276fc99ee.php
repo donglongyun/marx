@@ -35,7 +35,7 @@
 <body>
     <img src="/web/marx/Public/images/head.png" alt="headimg" width="100%" class="topimg">
 
-    <div class="toplink">
+    <div class="toplink" style="z-index: 3 ">
         <ul id="nav" style="border-radius: 10px 10px 0px 0px">
         <li><a href="<?php echo U('Index/index');?>" style="color: white">首页</a>
         </li>
@@ -101,7 +101,7 @@
     <div class="topdec"><a href="<?php echo U('Lists/index?cid=1');?>" style="color: white"><b>新闻动态</b>>>></a></div>
     <div><middle>
         <?php if(is_array($newstit)): $i = 0; $__LIST__ = $newstit;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="display:none;"><?php echo ($b=$vo["id"]); ?></p>
-        <a href="<?php echo U('Show/index?id='.$b);?>" ><?php echo (substr($vo['title'],0,51)); ?></a><br><?php endforeach; endif; else: echo "" ;endif; ?>
+        <a href="<?php echo U('Show/index?id='.$b);?>" ><?php echo ($vo['title']); ?></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
     </middle></div>
 </div>
 <div class="flowpic">
@@ -141,6 +141,7 @@
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner">
+            <div style="position: absolute;left: 120px;top: 10px;z-index: 2;color: white">学生活动</div>
             <div class="item active">
                 <img src="/web/marx/Public/images/1.png" alt="First slide">
                 <div class="carousel-caption"></div>
@@ -177,12 +178,12 @@
 </div>
 <div class="notice">
     <div class="topdec" ><a href="<?php echo U('Lists/index?cid=2');?>" style="color: white"><b>公告栏</b>>>></a></div>
-    <div><middle>
+    <marquee behavior="scroll" direction="up" scrollamount="3" onmouseover=this.stop() onmouseout=this.start()><middle>
         <?php if(is_array($noticetit)): $i = 0; $__LIST__ = $noticetit;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="display:none;"><?php echo ($b=$vo["id"]); ?></p>
-            <a href="<?php echo U('Show/index?id='.$b);?>"><?php echo (substr($vo['title'],0,51)); ?></a><br><?php endforeach; endif; else: echo "" ;endif; ?>
-    </middle></div>
-    </volist>
+            <a href="<?php echo U('Show/index?id='.$b);?>"><?php echo ($vo['title']); ?></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
+    </middle></marquee>
 </div>
+
 <div class="piclinks">
     <a href="http://sauqjj.com/"> <img src="/web/marx/Public/images/rightdown/1.gif" alt="" width="300px" height="75px"></a>
     <a href="<?php echo U('Show/showdet?cid=3');?>"> <img src="/web/marx/Public/images/rightdown/21.gif" alt="" width="300px" height="75px"></a>
@@ -198,6 +199,7 @@
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner" style="white-space:nowrap;">
+            <div style="position: absolute;left: 120px;top: 10px;z-index: 2;color: white">学院风采</div>
             <div class="item active">
                 <img src="/web/marx/Public/images/xia/1.png" alt="First slide">
                 <center><span class="jieshao" style="text-align: center"></span></center>

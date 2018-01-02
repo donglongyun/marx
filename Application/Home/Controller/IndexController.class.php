@@ -9,7 +9,8 @@ class IndexController extends Controller {
         //$blog=$blog[1]['title'];
         $this->assign('newstit',$newstit);
         //var_dump($tit);
-        $noticetit=$blog->where(array("cid"=>2))->field("title,id")->order('time desc')->limit(8)->select();
+        //cid应该为2
+        $noticetit=$blog->where(array("cid"=>2))->field("title,id")->order('time desc')->limit(6)->select();
         //$blog=$blog[1]['title'];
         $this->assign('noticetit',$noticetit);
         $this->display();
