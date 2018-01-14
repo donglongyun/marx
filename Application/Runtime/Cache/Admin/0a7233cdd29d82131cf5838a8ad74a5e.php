@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     
     <title></title>
-     <script type="text/javascript" src="/web/marx/Application/Admin/View/Public/Js/jquery-1.7.2.min.js"></script>
-     <script type="text/javascript" src="/web/marx/Application/Admin/View/Public/Js/checked.js"></script>
+     <script type="text/javascript" src="/Application/Admin/View/Public/Js/jquery-1.7.2.min.js"></script>
+     <script type="text/javascript" src="/Application/Admin/View/Public/Js/checked.js"></script>
     
-    <link href="/web/marx/Application/Admin/View/Public/Css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="/web/marx/Application/Admin/View/Public/Css/top.css" />
+    <link href="/Application/Admin/View/Public/Css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/Application/Admin/View/Public/Css/top.css" />
   
     <style type="text/css">
 
@@ -20,10 +20,10 @@
   
   <body>
   <div id="top">
-  	<a href="/web/marx/index.php/Admin/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="/web/marx/index.php/Admin/Rbac/index">用户管理</a>&nbsp;>>&nbsp;<?php if($role == null): ?><a href="/web/marx/index.php/Admin/Rbac/addRole">添加角色</a><?php else: ?><a href="/web/marx/index.php/Admin/Rbac/addRole?rid=<?php echo ($role['id']); ?>">配置权限</a><?php endif; ?>
+  	<a href="/index.php?s=/Admin/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="/index.php?s=/Admin/Rbac/index">用户管理</a>&nbsp;>>&nbsp;<?php if($role == null): ?><a href="/index.php?s=/Admin/Rbac/addRole">添加角色</a><?php else: ?><a href="/index.php?s=/Admin/Rbac/addRole?rid=<?php echo ($role['id']); ?>">配置权限</a><?php endif; ?>
   </div>
 	<div id="all" >
-		<form action="/web/marx/index.php/Admin/Rbac/addRoleHandle" method="post">
+		<form action="/index.php?s=/Admin/Rbac/addRoleHandle" method="post">
 			<table class="table table-bordered table-hover " >
 				
 				<tr>

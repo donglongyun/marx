@@ -1,19 +1,21 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>
+﻿<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/Public/images/favicon.ico" type="image/x-icon" />
     <!--引入jQuery文件-->
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/web/marx/Public/css/main.css">
-    <link rel="javascript" href="/web/marx/Public/js/main.js">
-    <link rel="stylesheet" href="/web/marx/Public/css/ft-carousel.css">
+    <link rel="stylesheet" href="/Public/css/main.css">
+    <link rel="javascript" href="/Public/js/main.js">
+    <link rel="stylesheet" href="/Public/css/ft-carousel.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <!-- <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>-->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/web/marx/Public/js/ft-carousel.min.js"></script>
+    <script type="text/javascript" src="/Public/js/ft-carousel.min.js"></script>
     <script type="text/javascript">
         $("#carousel_1").FtCarousel();
 
@@ -33,9 +35,9 @@
     <title>马克思主义学院</title>
 </head>
 <body>
-    <img src="/web/marx/Public/images/head.png" alt="headimg" width="100%" class="topimg">
+    <img src="/Public/images/head.png" alt="headimg" width="100%" class="topimg">
 
-    <div class="toplink" style="z-index: 3 ">
+    <div class="toplink">
         <ul id="nav" style="border-radius: 10px 10px 0px 0px">
         <li><a href="<?php echo U('Index/index');?>" style="color: white">首页</a>
         </li>
@@ -80,11 +82,11 @@
         <li><a href="#" style="color: white">心理健康之家 </a>
             <ul>
                 <li><a href="<?php echo U('Lists/index?cid=21');?>">中心概况</a></li>
-                <li><a href="<?php echo U('Show/index?id=356');?>">心理园地</a></li>
+                <li><a href="<?php echo U('Lists/index?cid=22');?>">心理园地</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=23');?>">心理测试</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=24');?>">心理活动</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=25');?>">心灵烛台</a></li>
-                <li><a href="<?php echo U('Show/index?id=384');?>">关于我们</a></li>
+                <li><a href="<?php echo U('Lists/index?cid=26');?>">关于我们</a></li>
             </ul>
         </li>
         <li><a href="<?php echo U('Lists/index?cid=27');?>" style="color: white">下载中心</a>
@@ -117,13 +119,13 @@
         &lt;!&ndash; 轮播（Carousel）项目 &ndash;&gt;
         <div class="carousel-inner">
             <div class="item active">
-                <img src="/web/marx/Public/images/toppic_1.png" width="300px" height="200px" alt="First slide" class="topimg">
+                <img src="/Public/images/toppic_1.png" width="300px" height="200px" alt="First slide" class="topimg">
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/toppic_1.png" width="300px" height="200px" alt="Second slide" class="topimg">
+                <img src="/Public/images/toppic_1.png" width="300px" height="200px" alt="Second slide" class="topimg">
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/toppic_2.png" width="300px" height="200px" alt="Third slide" class="topimg">
+                <img src="/Public/images/toppic_2.png" width="300px" height="200px" alt="Third slide" class="topimg">
             </div>
         </div>
         &lt;!&ndash; 轮播（Carousel）导航 &ndash;&gt;
@@ -143,27 +145,27 @@
         <div class="carousel-inner">
             <div style="position: absolute;left: 120px;top: 10px;z-index: 2;color: white">学生活动</div>
             <div class="item active">
-                <img src="/web/marx/Public/images/1.png" alt="First slide">
+                <img src="/Public/images/1.png" alt="First slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/2.png" alt="Second slide">
+                <img src="/Public/images/2.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/3.png" alt="Third slide">
+                <img src="/Public/images/3.png" alt="Third slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/4.png" alt="Second slide">
+                <img src="/Public/images/4.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/5.png" alt="Second slide">
+                <img src="/Public/images/5.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/6.png" alt="Second slide">
+                <img src="/Public/images/6.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
         </div>
@@ -185,9 +187,9 @@
 </div>
 
 <div class="piclinks">
-    <a href="http://sauqjj.com/"> <img src="/web/marx/Public/images/rightdown/1.gif" alt="" width="300px" height="75px"></a>
-    <a href="<?php echo U('Show/showdet?cid=3');?>"> <img src="/web/marx/Public/images/rightdown/21.gif" alt="" width="300px" height="75px"></a>
-    <a href="<?php echo U('Lists/index?cid=4');?>"> <img src="/web/marx/Public/images/rightdown/3.gif" alt="" width="300px" height="75px"></a>
+    <a href="http://sauqjj.com/"> <img src="/Public/images/rightdown/1.gif" alt="" width="300px" height="75px"></a>
+    <a href="<?php echo U('Show/showdet?cid=3');?>"> <img src="/Public/images/rightdown/21.gif" alt="" width="300px" height="75px"></a>
+    <a href="<?php echo U('Lists/index?cid=4');?>"> <img src="/Public/images/rightdown/3.gif" alt="" width="300px" height="75px"></a>
 </div>
 <div class="activities">
     <div id="myCarousel1" class="carousel slide">
@@ -201,28 +203,28 @@
         <div class="carousel-inner" style="white-space:nowrap;">
             <div style="position: absolute;left: 120px;top: 10px;z-index: 2;color: white">学院风采</div>
             <div class="item active">
-                <img src="/web/marx/Public/images/xia/1.png" alt="First slide">
+                <img src="/Public/images/xia/1.png" alt="First slide">
                 <center><span class="jieshao" style="text-align: center"></span></center>
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/xia/2.png" alt="Second slide">
+                <img src="/Public/images/xia/2.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/xia/3.png" alt="Third slide">
+                <img src="/Public/images/xia/3.png" alt="Third slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/xia/4.png" alt="Second slide">
+                <img src="/Public/images/xia/4.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/xia/5.png" alt="Second slide">
+                <img src="/Public/images/xia/5.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img src="/web/marx/Public/images/xia/6.png" alt="Second slide">
+                <img src="/Public/images/xia/6.png" alt="Second slide">
                 <div class="carousel-caption"></div>
             </div>
         </div>
@@ -237,19 +239,19 @@
 </div>
 <div class="links">
     <div class="topdec"><b>教学资源</b></div>
-    <a href="http://www.moe.edu.cn/"><img src="/web/marx/Public/images/links/friendlink1.png" width="300px" height="40px" alt=""></a>
-    <a href="https://www.sinoss.net/index.html"> <img src="/web/marx/Public/images/links/friendlink2.png" width="300px" height="40px" alt=""></a>
-    <a href="http://www.npopss-cn.gov.cn/"><img src="/web/marx/Public/images/links/friendlink3.png" width="300px" height="40px" alt=""></a>
-    <a href="http://www.stuln.com/"><img src="/web/marx/Public/images/links/friendlink4.png" width="300px" height="40px" alt=""></a>
-    <a href="http://www.upln.cn/"><img src="/web/marx/Public/images/links/friendlink5.png" width="300px" height="40px" alt=""></a>
+    <a href="http://www.moe.edu.cn/"><img src="/Public/images/links/friendlink1.png" width="300px" height="40px" alt=""></a>
+    <a href="https://www.sinoss.net/index.html"> <img src="/Public/images/links/friendlink2.png" width="300px" height="40px" alt=""></a>
+    <a href="http://www.npopss-cn.gov.cn/"><img src="/Public/images/links/friendlink3.png" width="300px" height="40px" alt=""></a>
+    <a href="http://www.stuln.com/"><img src="/Public/images/links/friendlink4.png" width="300px" height="40px" alt=""></a>
+    <a href="http://www.upln.cn/"><img src="/Public/images/links/friendlink5.png" width="300px" height="40px" alt=""></a>
 
 </div>
 </body>
 <footer class="indexfoot" >
-    <a href="">沈航官网</a> |
-    <a href="">数字沈航</a> |
-    <a href="">沈航图书馆</a><br>
+    <a href="http://www.sau.edu.cn">沈航官网</a> |
+    <a href="http://i.sau.edu.cn">数字沈航</a> |
+    <a href="http://lib.sau.edu.cn">沈航图书馆</a><br>
     <a href="mailto:316433179@qq.com" style="color: #232323; text-decoration: none;">Power by dlink </a><br>
-    版权所有 沈阳航空航天大学马克思主义学院  &nbsp;&nbsp;&nbsp;辽宁省沈阳市沈北新区道义南大街37号  联系电话：89724408
+    版权所有 沈阳航空航天大学马克思主义学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;辽宁省沈阳市沈北新区道义南大街37号  联系电话：89724408
     <br>&nbsp;
 </footer>

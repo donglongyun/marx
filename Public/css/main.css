@@ -51,7 +51,7 @@ body{background-color: #E5E5E5;}
     position: absolute;
     left: 380px;
     top: 172px;
-    z-index:2;
+    z-index:12;
     border-radius: 15px;
 }
 footer{

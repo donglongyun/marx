@@ -1,0 +1,4 @@
+数据库文件在根目录下，命名为marx.sql。
+PHP版本：5.6.25
+MySQL版本：5.7.14
+数数据配置目录： Application\Common\Conf\config.php

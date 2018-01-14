@@ -8,8 +8,8 @@
     <title></title>
    
     <!-- Bootstrap -->
-    <link href="/web/marx/Application/Admin/View/Public/Css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/web/marx/Application/Admin/View/Public/Css/top.css" />
+    <link href="/Application/Admin/View/Public/Css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Application/Admin/View/Public/Css/top.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,7 +25,7 @@
     <script type="text/javascript">
       function del(bid){ 
         if(confirm('确定要删除吗？')){ 
-          window.location = "/web/marx/index.php/Admin/Blog/delInfo?bid="+bid;
+          window.location = "/index.php?s=/Admin/Blog/delInfo?bid="+bid;
         }
       }
     </script>
@@ -33,7 +33,7 @@
  
   <body>
   <div id="top">
-      <a href="/web/marx/index.php/Admin/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="/web/marx/index.php/Admin/Blog/index">文章管理</a>&nbsp;>>&nbsp;<a href="/web/marx/index.php/Admin/Blog/infoList">简介文章</a>
+      <a href="/index.php?s=/Admin/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="/index.php?s=/Admin/Blog/index">文章管理</a>&nbsp;>>&nbsp;<a href="/index.php?s=/Admin/Blog/infoList">简介文章</a>
     </div>
   <div id='all'>
     <table class="table table-bordered table-hover" >
@@ -55,16 +55,16 @@
             <?php else: ?> <span style="color:red">未发布</span><?php endif; ?>
           </td>
           <td>
-              <?php if($v['blog']): ?>[<a href="/web/marx/index.php/Admin/Blog/addInfo?cid=<?php echo ($v['id']); ?>">修改文章</a>]
+              <?php if($v['blog']): ?>[<a href="/index.php?s=/Admin/Blog/addInfo?cid=<?php echo ($v['id']); ?>">修改文章</a>]
                 [<a href="javascript:del(<?php echo ($v['bid']); ?>)">删除文章</a>]
               <?php else: ?>
-                [<a href="/web/marx/index.php/Admin/Blog/addInfo?cid=<?php echo ($v['id']); ?>">发布文章</a>]<?php endif; ?>
+                [<a href="/index.php?s=/Admin/Blog/addInfo?cid=<?php echo ($v['id']); ?>">发布文章</a>]<?php endif; ?>
           </td>
         </tr><?php endforeach; endif; ?>
     </table>
       
   </div>  
-  <script src="/web/marx/Application/Admin/View/Public/Js/jquery-1.7.2.min.js"></script>
-  <script src="/web/marx/Application/Admin/View/Public/Js/bootstrap.min.js"></script>
+  <script src="/Application/Admin/View/Public/Js/jquery-1.7.2.min.js"></script>
+  <script src="/Application/Admin/View/Public/Js/bootstrap.min.js"></script>
   </body>
 </html>
