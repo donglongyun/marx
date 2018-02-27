@@ -2,20 +2,20 @@
 ﻿<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="/Public/images/favicon.ico" type="image/x-icon" />
+    <!--<link rel="shortcut icon" href="/web/marx/Public/images/favicon.ico" type="image/x-icon" />-->
     <!--引入jQuery文件-->
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/Public/css/main.css">
-    <link rel="javascript" href="/Public/js/main.js">
-    <link rel="stylesheet" href="/Public/css/ft-carousel.css">
+    <link rel="stylesheet" href="/web/marx/Public/css/main.css">
+    <link rel="javascript" href="/web/marx/Public/js/main.js">
+    <link rel="stylesheet" href="/web/marx/Public/css/ft-carousel.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <!-- <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>-->
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/Public/js/ft-carousel.min.js"></script>
+    <script type="text/javascript" src="/web/marx/Public/js/ft-carousel.min.js"></script>
     <script type="text/javascript">
         $("#carousel_1").FtCarousel();
 
@@ -35,7 +35,7 @@
     <title>马克思主义学院</title>
 </head>
 <body>
-    <img src="/Public/images/head.png" alt="headimg" width="100%" class="topimg">
+    <img src="/web/marx/Public/images/head.png" alt="headimg" width="100%" class="topimg">
 
     <div class="toplink">
         <ul id="nav" style="border-radius: 10px 10px 0px 0px">
