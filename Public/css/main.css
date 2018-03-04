@@ -3,7 +3,7 @@
 /*body{background-color: #E5E5E5;}*/
 .newslist{
     width: 20%;
-    height: 28%;
+    height: 30%;
     position: absolute;
     top:220px;
     left: 20%;
@@ -35,7 +35,7 @@
 }
 .notice{
     width: 20%;
-    height: 28%;
+    height: 30%;
     position: absolute;
     top:220px;
     left: 61%;
@@ -161,23 +161,23 @@ li{
 }
 .sidebar{
 
-    width: 200px;
+    width: 14%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 22px;
-    height: 400px;
+    height: auto;
     position: absolute;
-    top: 230px;
-    left: 300px;
+    top: 33%;
+    left: 20%;
 }
 .sidetxt{
     color: #111111;
 }
 .show{
-    width: 600px;
+    width: 41%;
     height: 800px;
     position: absolute;
-    top: 240px;
-    left: 600px;
+    top: 33%;
+    left: 36%;
     border:1.5px solid #949494;
     font-size: 17px;
 
@@ -204,7 +204,7 @@ li{
     background-color: #E8E8E8;
 }
 img{
-    border-radius: 3px;
+    border-radius: 0px;
 }
 .jieshao{
     text-align: center;

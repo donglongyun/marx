@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <!--引入jQuery文件-->
@@ -204,7 +204,7 @@
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner">
-            <div style="position: absolute;left: 120px;top: 10px;z-index: 2;color: white">学生活动</div>
+            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white">学生活动</div>
             <div class="item active">
                 <img src="/web/marx/Public/images/1.png" alt="First slide">
                 <div class="carousel-caption"></div>
@@ -263,7 +263,7 @@
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner" style="white-space:nowrap;">
-            <div style="position: absolute;left: 120px;top: 10px;z-index: 2;color: white">学院风采</div>
+            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white">学院风采</div>
             <div class="item active">
                 <img src="/web/marx/Public/images/xia/1.png" alt="First slide">
                 <center><span class="jieshao" style="text-align: center"></span></center>
@@ -301,11 +301,11 @@
 </div>
 <div class="links">
     <div class="topdec"><b>教学资源</b></div>
-    <a href="http://www.moe.edu.cn/"><img src="/web/marx/Public/images/links/friendlink1.png" width="300px" class="img-responsive"></a>
-    <a href="https://www.sinoss.net/index.html"> <img src="/web/marx/Public/images/links/friendlink2.png" class="img-responsive"></a>
-    <a href="http://www.npopss-cn.gov.cn/"><img src="/web/marx/Public/images/links/friendlink3.png" class="img-responsive"></a>
-    <a href="http://www.stuln.com/"><img src="/web/marx/Public/images/links/friendlink4.png" class="img-responsive"></a>
-    <a href="http://www.upln.cn/"><img src="/web/marx/Public/images/links/friendlink5.png" class="img-responsive"></a>
+    <a href="http://www.moe.edu.cn/"><img src="/web/marx/Public/images/links/friendlink1-1.png" class="img-responsive"></a>
+    <a href="https://www.sinoss.net/index.html"> <img src="/web/marx/Public/images/links/friendlink2-1.png" class="img-responsive"></a>
+    <a href="http://www.npopss-cn.gov.cn/"><img src="/web/marx/Public/images/links/friendlink3-1.png" class="img-responsive"></a>
+    <a href="http://www.stuln.com/"><img src="/web/marx/Public/images/links/friendlink4-1.png" class="img-responsive"></a>
+    <a href="http://www.upln.cn/"><img src="/web/marx/Public/images/links/friendlink5-1.png" class="img-responsive"></a>
 
 </div>
 </div>
