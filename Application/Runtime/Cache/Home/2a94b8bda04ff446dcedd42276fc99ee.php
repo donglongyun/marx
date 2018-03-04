@@ -1,43 +1,103 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <!--<link rel="shortcut icon" href="/web/marx/Public/images/favicon.ico" type="image/x-icon" />-->
     <!--引入jQuery文件-->
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/web/marx/Public/css/main.css">
     <link rel="javascript" href="/web/marx/Public/js/main.js">
     <link rel="stylesheet" href="/web/marx/Public/css/ft-carousel.css">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <!-- <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>-->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/web/marx/Public/js/ft-carousel.min.js"></script>
-    <script type="text/javascript">
-        $("#carousel_1").FtCarousel();
-
-        $("#carousel_2").FtCarousel({
-            index: 1,
-            auto: false
-        });
-
-        $("#carousel_3").FtCarousel({
-            index: 0,
-            auto: true,
-            time: 3000,
-            indicators: false,
-            buttons: true
-        });
-    </script>
     <title>马克思主义学院</title>
 </head>
 <body>
-    <img src="/web/marx/Public/images/head.png" alt="headimg" width="100%" class="topimg">
+<img src="/web/marx/Public/images/head2.png" class="img-responsive center-block">
+<!--<div class="container"style="margin-top: -29px">
+    <div class="btn-group btn-group-sm col-md-offset-3" role="group">
+        <button type="button" class="btn btn-default"><a href="<?php echo U('Index/index');?>">首页</a></button>
+        <div class="btn-group mousedown btn-group-sm" role="group">&lt;!&ndash;open there&ndash;&gt;
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+        <div class="btn-group mousedown btn-group-sm" role="group">&lt;!&ndash;open there&ndash;&gt;
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+        <div class="btn-group mousedown btn-group-sm" role="group">&lt;!&ndash;open there&ndash;&gt;
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+        <div class="btn-group mousedown btn-group-sm" role="group">&lt;!&ndash;open there&ndash;&gt;
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+        <div class="btn-group mousedown btn-group-sm" role="group">&lt;!&ndash;open there&ndash;&gt;
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+        <div class="btn-group mousedown btn-group-sm" role="group">&lt;!&ndash;open there&ndash;&gt;
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+        <button type="button" class="btn btn-default"><a href="<?php echo U('Lists/index?cid=27');?>">下载中心</a></button>
+    </div>
+</div>
+<script>
 
-    <div class="toplink">
+    $('.mousedown').mouseover(function() {
+
+        $(this).addClass('open');    }).mouseout(function() {        $(this).removeClass('open');    });
+
+</script>-->
+<div class="toplink container col-md-offset-3 col-md-8" style="margin-top: -30px">
         <ul id="nav" style="border-radius: 10px 10px 0px 0px">
         <li><a href="<?php echo U('Index/index');?>" style="color: white">首页</a>
         </li>
@@ -97,8 +157,9 @@
 
 
 
-<body>
+
 <br>
+<div class="container row">
 <div class="newslist">
     <div class="topdec"><a href="<?php echo U('Lists/index?cid=1');?>" style="color: white"><b>新闻动态</b>>>></a></div>
     <div><middle>
@@ -185,11 +246,12 @@
             <a href="<?php echo U('Show/index?id='.$b);?>"><?php echo ($vo['title']); ?></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
     </middle></marquee>
 </div>
-
+</div>
+<div class="container">
 <div class="piclinks">
-    <a href="http://sauqjj.com/"> <img src="/web/marx/Public/images/rightdown/1.gif" alt="" width="300px" height="75px"></a>
-    <a href="<?php echo U('Show/showdet?cid=3');?>"> <img src="/web/marx/Public/images/rightdown/21.gif" alt="" width="300px" height="75px"></a>
-    <a href="<?php echo U('Lists/index?cid=4');?>"> <img src="/web/marx/Public/images/rightdown/3.gif" alt="" width="300px" height="75px"></a>
+    <a href="http://sauqjj.com/"> <img src="/web/marx/Public/images/rightdown/1-1.gif" alt="特色情景剧" class="img-responsive"></a>
+    <a href="<?php echo U('Show/showdet?cid=3');?>"> <img src="/web/marx/Public/images/rightdown/2-1.gif" alt="" class="img-responsive"></a>
+    <a href="<?php echo U('Lists/index?cid=4');?>"> <img src="/web/marx/Public/images/rightdown/3-1.gif" alt="" class="img-responsive"></a>
 </div>
 <div class="activities">
     <div id="myCarousel1" class="carousel slide">
@@ -239,12 +301,13 @@
 </div>
 <div class="links">
     <div class="topdec"><b>教学资源</b></div>
-    <a href="http://www.moe.edu.cn/"><img src="/web/marx/Public/images/links/friendlink1.png" width="300px" height="40px" alt=""></a>
-    <a href="https://www.sinoss.net/index.html"> <img src="/web/marx/Public/images/links/friendlink2.png" width="300px" height="40px" alt=""></a>
-    <a href="http://www.npopss-cn.gov.cn/"><img src="/web/marx/Public/images/links/friendlink3.png" width="300px" height="40px" alt=""></a>
-    <a href="http://www.stuln.com/"><img src="/web/marx/Public/images/links/friendlink4.png" width="300px" height="40px" alt=""></a>
-    <a href="http://www.upln.cn/"><img src="/web/marx/Public/images/links/friendlink5.png" width="300px" height="40px" alt=""></a>
+    <a href="http://www.moe.edu.cn/"><img src="/web/marx/Public/images/links/friendlink1.png" width="300px" class="img-responsive"></a>
+    <a href="https://www.sinoss.net/index.html"> <img src="/web/marx/Public/images/links/friendlink2.png" class="img-responsive"></a>
+    <a href="http://www.npopss-cn.gov.cn/"><img src="/web/marx/Public/images/links/friendlink3.png" class="img-responsive"></a>
+    <a href="http://www.stuln.com/"><img src="/web/marx/Public/images/links/friendlink4.png" class="img-responsive"></a>
+    <a href="http://www.upln.cn/"><img src="/web/marx/Public/images/links/friendlink5.png" class="img-responsive"></a>
 
+</div>
 </div>
 </body>
 <footer class="indexfoot" >

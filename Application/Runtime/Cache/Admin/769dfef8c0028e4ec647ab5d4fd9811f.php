@@ -34,10 +34,10 @@
   </script>
   <body>
   	<div id="top">
-  		<a href="/web/marx/index.php/Admin/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="/web/marx/index.php/Admin/Rbac/index">用户管理</a>&nbsp;>>&nbsp;<?php if($user): ?><a href="/web/marx/index.php/Admin/Rbac/addUser?id=<?php echo ($id); ?>">修改角色</a><?php else: ?><a href="/web/marx/index.php/Admin/Rbac/addUser">添加用户</a><?php endif; ?>
+  		<a href="/web/marx/index.php?s=/Admin/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="/web/marx/index.php?s=/Admin/Rbac/index">用户管理</a>&nbsp;>>&nbsp;<?php if($user): ?><a href="/web/marx/index.php?s=/Admin/Rbac/addUser?id=<?php echo ($id); ?>">修改角色</a><?php else: ?><a href="/web/marx/index.php?s=/Admin/Rbac/addUser">添加用户</a><?php endif; ?>
   	</div>
 	<div id="all" >
-		<form action="/web/marx/index.php/Admin/Rbac/addUserHandle" method="post">
+		<form action="/web/marx/index.php?s=/Admin/Rbac/addUserHandle" method="post">
 			<table class="table table-bordered table-hover" >
 				<tr>
 					<td align="right" width='30%'>用户账号：</td>
