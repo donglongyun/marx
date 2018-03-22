@@ -6,13 +6,13 @@
     <title></title>
 
  
-    <link href="/Application/Admin/View/Public/Css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/Application/Admin/View/Public/Css/top.css" />
+    <link href="/web/marx/Application/Admin/View/Public/Css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/web/marx/Application/Admin/View/Public/Css/top.css" />
 		<script type="text/javascript">
-			window.UEDITOR_HOME_URL = '/Application/Admin/View/Public/Js/ueditor/';
+			window.UEDITOR_HOME_URL = '/web/marx/Application/Admin/View/Public/Js/ueditor/';
 		</script>
-    <script type="text/javascript" src="/Application/Admin/View/Public/Js/ueditor/ueditor.config.js"></script>  <!-- 配置文件 -->
-		<script type="text/javascript" src="/Application/Admin/View/Public/Js/ueditor/ueditor.all.min.js"></script>  <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="/web/marx/Application/Admin/View/Public/Js/ueditor/ueditor.config.js"></script>  <!-- 配置文件 -->
+		<script type="text/javascript" src="/web/marx/Application/Admin/View/Public/Js/ueditor/ueditor.all.min.js"></script>  <!-- 编辑器源码文件 -->
     <script type="text/javascript" >
 			
 			window.onload = function(){
@@ -33,10 +33,10 @@
 
 <body>
 	<div id="top">
-	  	<a href="/index.php?s=/Admin/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="/index.php?s=/Admin/Blog/index">文章管理</a>&nbsp;>>&nbsp;<?php if($id): ?><a href="/index.php?s=/Admin/Blog/addBlog?id=<?php echo ($id); ?>">修改文章</a><?php else: ?><a href="/index.php?s=/Admin/Blog/addBlog">发布文章</a><?php endif; ?>
+	  	<a href="/web/marx/index.php/Admin/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="/web/marx/index.php/Admin/Blog/index">文章管理</a>&nbsp;>>&nbsp;<?php if($id): ?><a href="/web/marx/index.php/Admin/Blog/addBlog?id=<?php echo ($id); ?>">修改文章</a><?php else: ?><a href="/web/marx/index.php/Admin/Blog/addBlog">发布文章</a><?php endif; ?>
 	</div>
 	<div id="all">
-		<form action="/index.php?s=/Admin/Blog/runAddBlog" method='post'>
+		<form action="/web/marx/index.php/Admin/Blog/runAddBlog" method='post'>
 			<table class="table table-bordered table-hover" >
 				<tr>
 					<td align="right" width='30%'>标题：</td>

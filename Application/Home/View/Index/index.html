@@ -2,13 +2,20 @@
 <br>
 <div class="container row">
 <div class="newslist">
-    <div class="topdec"><a href="<{:U('Lists/index?cid=1')}>" style="color: white"><b>新闻动态</b>>>></a></div>
+    <!--<div class="topdec"><a href="<{:U('Lists/index?cid=1')}>" style="color: white"><b>新闻动态</b>>>></a></div>
     <div><middle>
         <volist name="newstit" id="vo">
         <p style="display:none;"><{$b=$vo.id}></p>
         <a href="<{:U('Show/index?id='.$b)}>" ><{$vo['title']}></a><br><br>
     </volist>
-    </middle></div>
+    </middle></div>-->
+    <div class="topdec" ><a href="<{:U('Lists/index?cid=1')}>" style="color: white"><b>新闻动态</b>>>></a></div>
+    <marquee behavior="scroll" direction="up" scrollamount="4.5" onmouseover=this.stop() onmouseout=this.start()><middle>
+        <volist name="newstit" id="vo">
+            <p style="display:none;"><{$b=$vo.id}></p>
+            <a href="<{:U('Show/index?id='.$b)}>" ><b><{$vo['title']}></b></a><br><br>
+        </volist>
+    </middle></marquee>
 </div>
 <div class="flowpic">
 
@@ -38,7 +45,7 @@
         <a class="carousel-control right" href="#myCarousel"
            data-slide="next">&rsaquo;</a>
     </div>-->
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
         <!-- 轮播（Carousel）指标 -->
         <!--<ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -47,7 +54,7 @@
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner">
-            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white">学生活动</div>
+            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white;font-size: 17px">学生活动</div>
             <div class="item active">
                 <img src="__PUBLIC__/images/1.png" alt="First slide">
                 <div class="carousel-caption"></div>
@@ -84,10 +91,10 @@
 </div>
 <div class="notice">
     <div class="topdec" ><a href="<{:U('Lists/index?cid=2')}>" style="color: white"><b>公告栏</b>>>></a></div>
-    <marquee behavior="scroll" direction="up" scrollamount="3" onmouseover=this.stop() onmouseout=this.start()><middle>
+    <marquee behavior="scroll" direction="up" scrollamount="4" onmouseover=this.stop() onmouseout=this.start()><middle>
         <volist name="noticetit" id="vo">
             <p style="display:none;"><{$b=$vo.id}></p>
-            <a href="<{:U('Show/index?id='.$b)}>"><{$vo['title']}></a><br><br>
+            <a href="<{:U('Show/index?id='.$b)}>"><b><{$vo['title']}></b></a><br><br>
         </volist>
     </middle></marquee>
 </div>
@@ -99,7 +106,7 @@
     <a href="<{:U('Lists/index?cid=4')}>"> <img src="__PUBLIC__/images/rightdown/3-1.gif" alt="" class="img-responsive"></a>
 </div>
 <div class="activities">
-    <div id="myCarousel1" class="carousel slide">
+    <div id="myCarousel1" class="carousel slide" data-ride="carousel" data-interval="3000">
         <!-- 轮播（Carousel）指标 -->
         <!--<ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -108,7 +115,7 @@
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner" style="white-space:nowrap;">
-            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white">学院风采</div>
+            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white;font-size: 17px">学院风采</div>
             <div class="item active">
                 <img src="__PUBLIC__/images/xia/1.png" alt="First slide">
                 <center><span class="jieshao" style="text-align: center"></span></center>

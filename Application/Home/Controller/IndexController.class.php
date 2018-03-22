@@ -5,12 +5,12 @@ use Common\Model\BlogModel;
 class IndexController extends Controller {
     public function index(){
         $blog=M(Blog);
-        $newstit=$blog->where(array("cid"=>1))->field("title,id")->order('time desc')->limit(8)->select();
+        $newstit=$blog->where(array("cid"=>1))->field("title,id")->order('time desc')->limit(10)->select();
         //$blog=$blog[1]['title'];
         $this->assign('newstit',$newstit);
         //var_dump($tit);
         //cid应该为2
-        $noticetit=$blog->where(array("cid"=>2))->field("title,id")->order('time desc')->limit(6)->select();
+        $noticetit=$blog->where(array("cid"=>2))->field("title,id")->order('time desc')->limit(10)->select();
         //$blog=$blog[1]['title'];
         $this->assign('noticetit',$noticetit);
         $this->display();

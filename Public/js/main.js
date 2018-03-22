@@ -19,7 +19,7 @@ window.onload = function(){
     },1000);
 
 };*/
-$(function(){
+/*$(function(){
     // 初始化轮播
     $(".start-slide").click(function(){
         $("#myCarousel").carousel('cycle');
@@ -46,7 +46,7 @@ $(function(){
     $(".slide-three").click(function(){
         $("#myCarousel").carousel(2);
     });
-});
+});*/
 $(function(){
     function footerPosition(){
         $("footer").removeClass("fixed-bottom");

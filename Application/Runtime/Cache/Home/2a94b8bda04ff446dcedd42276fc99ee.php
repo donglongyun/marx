@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/web/marx/Public/css/main.css">
@@ -161,11 +161,16 @@
 <br>
 <div class="container row">
 <div class="newslist">
-    <div class="topdec"><a href="<?php echo U('Lists/index?cid=1');?>" style="color: white"><b>新闻动态</b>>>></a></div>
+    <!--<div class="topdec"><a href="<?php echo U('Lists/index?cid=1');?>" style="color: white"><b>新闻动态</b>>>></a></div>
     <div><middle>
         <?php if(is_array($newstit)): $i = 0; $__LIST__ = $newstit;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="display:none;"><?php echo ($b=$vo["id"]); ?></p>
         <a href="<?php echo U('Show/index?id='.$b);?>" ><?php echo ($vo['title']); ?></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
-    </middle></div>
+    </middle></div>-->
+    <div class="topdec" ><a href="<?php echo U('Lists/index?cid=1');?>" style="color: white"><b>新闻动态</b>>>></a></div>
+    <marquee behavior="scroll" direction="up" scrollamount="4.5" onmouseover=this.stop() onmouseout=this.start()><middle>
+        <?php if(is_array($newstit)): $i = 0; $__LIST__ = $newstit;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="display:none;"><?php echo ($b=$vo["id"]); ?></p>
+            <a href="<?php echo U('Show/index?id='.$b);?>" ><b><?php echo ($vo['title']); ?></b></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
+    </middle></marquee>
 </div>
 <div class="flowpic">
 
@@ -195,7 +200,7 @@
         <a class="carousel-control right" href="#myCarousel"
            data-slide="next">&rsaquo;</a>
     </div>-->
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
         <!-- 轮播（Carousel）指标 -->
         <!--<ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -204,7 +209,7 @@
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner">
-            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white">学生活动</div>
+            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white;font-size: 17px">学生活动</div>
             <div class="item active">
                 <img src="/web/marx/Public/images/1.png" alt="First slide">
                 <div class="carousel-caption"></div>
@@ -241,9 +246,9 @@
 </div>
 <div class="notice">
     <div class="topdec" ><a href="<?php echo U('Lists/index?cid=2');?>" style="color: white"><b>公告栏</b>>>></a></div>
-    <marquee behavior="scroll" direction="up" scrollamount="3" onmouseover=this.stop() onmouseout=this.start()><middle>
+    <marquee behavior="scroll" direction="up" scrollamount="4" onmouseover=this.stop() onmouseout=this.start()><middle>
         <?php if(is_array($noticetit)): $i = 0; $__LIST__ = $noticetit;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="display:none;"><?php echo ($b=$vo["id"]); ?></p>
-            <a href="<?php echo U('Show/index?id='.$b);?>"><?php echo ($vo['title']); ?></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
+            <a href="<?php echo U('Show/index?id='.$b);?>"><b><?php echo ($vo['title']); ?></b></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
     </middle></marquee>
 </div>
 </div>
@@ -254,7 +259,7 @@
     <a href="<?php echo U('Lists/index?cid=4');?>"> <img src="/web/marx/Public/images/rightdown/3-1.gif" alt="" class="img-responsive"></a>
 </div>
 <div class="activities">
-    <div id="myCarousel1" class="carousel slide">
+    <div id="myCarousel1" class="carousel slide" data-ride="carousel" data-interval="3000">
         <!-- 轮播（Carousel）指标 -->
         <!--<ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -263,7 +268,7 @@
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
         <div class="carousel-inner" style="white-space:nowrap;">
-            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white">学院风采</div>
+            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white;font-size: 17px">学院风采</div>
             <div class="item active">
                 <img src="/web/marx/Public/images/xia/1.png" alt="First slide">
                 <center><span class="jieshao" style="text-align: center"></span></center>

@@ -8,7 +8,7 @@
     top:220px;
     left: 20%;
     text-align: left;
-    font-size: 15px;
+    font-size: 14px;
     background-color: #F4F4F4;
     color: #111111;
     overflow: hidden;
@@ -42,6 +42,7 @@
     background-color:#F4F4F4;
     color: #111111;
     overflow: hidden;
+    font-size: 14px;
 }
 .topimg{
     position: absolute;
