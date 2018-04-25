@@ -16,8 +16,10 @@
     <script type="text/javascript" src="/web/marx/Public/js/ft-carousel.min.js"></script>
     <title>马克思主义学院</title>
 </head>
-<body>
-<img src="/web/marx/Public/images/head2.png" class="img-responsive center-block">
+<body><div>
+    <img src="/web/marx/Public/images/head2.png" class="topimg">
+</div>
+
 <!--<div class="container"style="margin-top: -29px">
     <div class="btn-group btn-group-sm col-md-offset-3" role="group">
         <button type="button" class="btn btn-default"><a href="<?php echo U('Index/index');?>">首页</a></button>
@@ -97,11 +99,11 @@
         $(this).addClass('open');    }).mouseout(function() {        $(this).removeClass('open');    });
 
 </script>-->
-<div class="toplink container col-md-offset-3 col-md-8" style="margin-top: -30px">
+<div class="toplink">
         <ul id="nav" style="border-radius: 10px 10px 0px 0px">
-        <li><a href="<?php echo U('Index/index');?>" style="color: white">首页</a>
+        <li><a href="<?php echo U('Index/index');?>" style="color: white;font-weight: bold;">首页</a>
         </li>
-        <li><a href="#" style="color: white">学院概况</a>
+        <li><a href="#" style="color: white;font-weight: bold;">学院概况</a>
             <ul>
                 <li><a href="<?php echo U('Show/showdet?cid=3');?>">学院简介</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=4');?>">机构设置</a></li>
@@ -109,7 +111,7 @@
                 <li><a href="<?php echo U('Lists/index?cid=6');?>">规章制度</a></li>
             </ul>
         </li>
-        <li><a href="#" style="color: white">教学工作</a>
+        <li><a href="#" style="color: white;font-weight: bold;">教学工作</a>
             <ul>
                 <li><a href="<?php echo U('Lists/index?cid=7');?>">课程建设</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=8');?>">教学改革</a></li>
@@ -118,28 +120,28 @@
                 <li><a href="<?php echo U('Lists/index?cid=11');?>">实践教学</a></li>
             </ul>
         </li>
-        <li><a href="#" style="color: white">科学研究</a>
+        <li><a href="#" style="color: white;font-weight: bold;">科学研究</a>
             <ul>
                 <li><a href="<?php echo U('Lists/index?cid=12');?>">学术动态</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=13');?>">科研项目</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=14');?>">科研成果</a></li>
             </ul>
         </li>
-        <li><a href="#" style="color: white">学科建设</a>
+        <li><a href="#" style="color: white;font-weight: bold;">学科建设</a>
             <ul>
                 <li><a href="<?php echo U('Lists/index?cid=15');?>">学科现状</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=16');?>">导师简介</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=17');?>">研究生培养</a></li>
             </ul>
         </li>
-        <li><a href="#" style="color: white">党群工作</a>
+        <li><a href="#" style="color: white;font-weight: bold;">党群工作</a>
             <ul>
                 <li><a href="<?php echo U('Lists/index?cid=18');?>">党群动态</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=19');?>">理论学习</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=20');?>">工会活动</a></li>
             </ul>
         </li>
-        <li><a href="#" style="color: white">心理健康之家 </a>
+        <li><a href="#" style="color: white;font-weight: bold;">心理健康之家 </a>
             <ul>
                 <li><a href="<?php echo U('Lists/index?cid=21');?>">中心概况</a></li>
                 <li><a href="<?php echo U('Lists/index?cid=22');?>">心理园地</a></li>
@@ -149,7 +151,7 @@
                 <li><a href="<?php echo U('Lists/index?cid=26');?>">关于我们</a></li>
             </ul>
         </li>
-        <li><a href="<?php echo U('Lists/index?cid=27');?>" style="color: white">下载中心</a>
+        <li><a href="<?php echo U('Lists/index?cid=27');?>" style="color: white;font-weight: bold;">下载中心</a>
 
         </li>
     </ul>
@@ -208,8 +210,9 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
+        <div style="position: absolute;left: 40%;top: -26px;z-index: 2;color: #2F4F4F;font-size: 17px;font-weight: bold;">学生活动</div>
         <div class="carousel-inner">
-            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white;font-size: 17px">学生活动</div>
+            
             <div class="item active">
                 <img src="/web/marx/Public/images/1.png" alt="First slide">
                 <div class="carousel-caption"></div>
@@ -267,8 +270,9 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>-->
         <!-- 轮播（Carousel）项目 -->
+        <div style="position: absolute;left: 40%;top: -26px;z-index: 2;color: #2F4F4F;font-size: 17px;font-weight: bolder;">学院风采</div>
         <div class="carousel-inner" style="white-space:nowrap;">
-            <div style="position: absolute;left: 40%;top: 10px;z-index: 2;color: white;font-size: 17px">学院风采</div>
+            
             <div class="item active">
                 <img src="/web/marx/Public/images/xia/1.png" alt="First slide">
                 <center><span class="jieshao" style="text-align: center"></span></center>

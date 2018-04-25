@@ -16,6 +16,8 @@ class ListsController extends Controller{
         $this->assign("tit",$tit);
         if($cid==5)
             $this->display('teacher');
+        else if($cid==16)
+            $this->display('teachers');
         else
             $this->display();
         $this->sidebar($cid);
@@ -24,7 +26,7 @@ class ListsController extends Controller{
         $pid=M(cate)->where(array('id'=>$pid))->select();
         //var_dump($pid);
         $pid=$pid[0]['pid'];
-        $side=M(cate)->where(array("pid"=>$pid))->order('id desc')->select();
+        $side=M(cate)->where(array("pid"=>$pid))->order('id asc')->select();
         //var_dump($side);
         $this->assign('side',$side);
         $this->display('Show/sidebar');

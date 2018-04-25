@@ -3,9 +3,9 @@
 /*body{background-color: #E5E5E5;}*/
 .newslist{
     width: 20%;
-    height: 30%;
+    height: 13.7vw;
     position: absolute;
-    top:220px;
+    top:14.4vw;
     left: 20%;
     text-align: left;
     font-size: 14px;
@@ -15,11 +15,11 @@
 }
 .topdec{
     width: 100%;
-    height: 16%;
+    height: 2.3vw;
     color: white;
     font-size: medium;
     text-align: center;
-    line-height:40px;
+    line-height:31px;
     background-color: rgb(207,1,7);
     border-radius: 12px 12px 0px 0px;
 }
@@ -27,7 +27,7 @@
     width: 20%;
     height: auto;
     position: absolute;
-    top:220px;;
+    top:15.3vw;
     left: 40.5%;
     border-radius: 10px 10px 10px 10px ;
     background-color: navajowhite;
@@ -35,9 +35,9 @@
 }
 .notice{
     width: 20%;
-    height: 30%;
+    height: 13.7vw;
     position: absolute;
-    top:220px;
+    top:14.4vw;
     left: 61%;
     background-color:#F4F4F4;
     color: #111111;
@@ -45,17 +45,23 @@
     font-size: 14px;
 }
 .topimg{
-    position: absolute;
+position: relative;
     top: 0px;
+    width: 98.6vw;
+    z-index: -121;
 }
 .toplink{
-    position: absolute;
-    z-index:12;
+    position: relative;
+    margin-top: -30px;
+    font-size:15px;
+    left: 26vw;
+    width: 72.5vw;
+    z-index:120;
     border-radius: 15px;
 }
 footer{
     clear: both;
-    width: 100%;
+    width: 98vw;
     line-height: 25px;
     font-family: "微软雅黑";
     position: absolute;
@@ -63,7 +69,7 @@ footer{
     text-align: center;
 }
 .indexfoot{
-    top: 700px;
+    top: 48vw;
 }
 .detfoot{
     top: 1100px;
@@ -108,7 +114,7 @@ body {
     color:#666; text-decoration:none;
 }
 #nav a:visited  {
-    color:#666;text-decoration:none;
+    color:#FFFF00;text-decoration:none;
 }
 #nav a:hover  {
     color:#FFF;text-decoration:none;font-weight:bold;
@@ -125,19 +131,19 @@ body {
 }
 #nav li ul li{
     float: left; width: 180px;
-    background: #F6F6F6;
+    background: #F6F6F6;font-weight:bold;
 }
 #nav li ul a{
     display: block; width: 156px;text-align:left;padding-left:24px;
 }
 #nav li ul a:link  {
-    color:; text-decoration:none;
+    color:; text-decoration:none;font-weight:bold;
 }
 #nav li ul a:visited  {
-    color:#666;text-decoration:none;
+    color:#666;text-decoration:none;font-weight:bold;
 }
 #nav li ul a:hover  {
-    color:#F3F3F3;text-decoration:none;font-weight:normal;
+    color:#F3F3F3;text-decoration:none;font-weight:bold;
     background:#C00;
 }
 #nav li:hover ul {
@@ -155,7 +161,7 @@ li{
 .links{
     position: absolute;
     left: 61%;
-    top:440px;
+    top:30vw;
     width: 20%;
     height: auto;
     background-color: #F4F4F4;
@@ -197,7 +203,7 @@ li{
 }
 .activities{
     position: absolute;
-    top:440px;
+    top:30vw;
     left: 40.5%;
     width: 20%;
     height: auto;
@@ -215,7 +221,7 @@ img{
     width: 20%;
     height: auto;
     position: absolute;
-    top: 440px;
+    top: 30vw;
     left: 20%;
 }
 #rollCon{width: 80%;text-align: center;display: block;overflow: hidden;color: black;height: 35%;position: absolute;top: 55%;left: 10%;}

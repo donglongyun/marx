@@ -1,0 +1,12 @@
+<include file="Public:head" />
+<body>
+<div class="show" style="overflow: auto"><middle><br>
+    <h3 style="text-align: center"><{$tit[0]['name']}></h3><br>
+    <volist name="lists" id="vo" mod="6">
+        <p style="display:none;"><{$b=$vo.id}></p>&nbsp;&nbsp;&nbsp;
+        <a href="<{:U('Show/index?id='.$b)}>"><{$vo['title']}></a>&nbsp;&nbsp;&nbsp;
+        <eq name="mod" value="4"><br/><br/></eq>
+        </volist>
+</middle></div>
+</body>
+<include file="Public:footer" />
