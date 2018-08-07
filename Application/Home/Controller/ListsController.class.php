@@ -10,7 +10,7 @@ use Think\Controller;
 //use Home\Controller\ShowController;
 class ListsController extends Controller{
     public function index($cid){
-        $lists=M(blog)->where(array("cid"=>$cid))->order("id desc")->select();
+        $lists=M(blog)->where("cid=%d and del=0",$cid)->order("id desc")->select();
         $tit=M(cate)->where(array("id"=>$cid))->select();
         $this->assign("lists",$lists);
         $this->assign("tit",$tit);

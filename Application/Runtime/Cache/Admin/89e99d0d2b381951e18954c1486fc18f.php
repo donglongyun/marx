@@ -25,12 +25,12 @@
   	<script type="text/javascript">
   		function del(id){ 
   			if(confirm('确定要删除吗？')){ 
-  				window.location = "/web/marx/index.php?s=/Admin/Blog/delete?id="+id;
+  				window.location = "/web/marx/index.php/Admin/Blog/delete?id="+id;
   			}
   		}
       function del1(id){ //删除到回收站
         if(confirm('确定要删除吗？')){ 
-          window.location = "/web/marx/index.php?s=/Admin/Blog/toTrach?id="+id+'&type=1';
+          window.location = "/web/marx/index.php/Admin/Blog/toTrach?id="+id+'&type=1';
         }
       }
   	</script>
@@ -38,10 +38,10 @@
  
   <body>
  	<div id="top">
-  		<a href="/web/marx/index.php?s=/Admin/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="/web/marx/index.php?s=/Admin/Blog/index">文章管理</a>&nbsp;>>&nbsp;<?php if(ACTION_NAME == "index"): ?><a href="/web/marx/index.php?s=/Admin/Blog/index">文章列表</a><?php else: ?><a href="/web/marx/index.php?s=/Admin/Blog/trach">回收站</a><?php endif; ?>
+  		<a href="/web/marx/index.php/Admin/Index/content"><span class='glyphicon glyphicon-home'></span></a>&nbsp;当前位置：<a href="/web/marx/index.php/Admin/Blog/index">文章管理</a>&nbsp;>>&nbsp;<?php if(ACTION_NAME == "index"): ?><a href="/web/marx/index.php/Admin/Blog/index">文章列表</a><?php else: ?><a href="/web/marx/index.php/Admin/Blog/trach">回收站</a><?php endif; ?>
   	</div>
 	<div id='all'>
-    <?php if(ACTION_NAME == "index"): ?><a class='btn btn-primary' href="/web/marx/index.php?s=/Admin/Blog/addBlog"  style='margin:10px 5px;display:inline-block'>添加文章</a><?php endif; ?>
+    <?php if(ACTION_NAME == "index"): ?><a class='btn btn-primary' href="/web/marx/index.php/Admin/Blog/addBlog"  style='margin:10px 5px;display:inline-block'>添加文章</a><?php endif; ?>
 		<table class="table table-bordered table-hover" >
 
 			<tr class="firstTr">
@@ -61,11 +61,11 @@
 					<td><?php echo (date('Y-m-d H:i:s',$v["time"])); ?></td>
 					<td><?php echo ($v["click"]); ?></td>
 					<td>
-						<?php if(ACTION_NAME == "index"): ?>[<a href="/web/marx/index.php?s=/Admin/Blog/addBlog?id=<?php echo ($v['id']); ?>">修改</a>]
+						<?php if(ACTION_NAME == "index"): ?>[<a href="/web/marx/index.php/Admin/Blog/addBlog?id=<?php echo ($v['id']); ?>">修改</a>]
 							[<a href="javascript:del1(<?php echo ($v['id']); ?>)">删除</a>]
 						<?php else: ?>
-							[<a href="/web/marx/index.php?s=/Admin/Blog/toTrach?id=<?php echo ($v['id']); ?>&type=0">还原</a>]
-							<!--[<a href="/web/marx/index.php?s=/Admin/Blog/delete?id=<?php echo ($v['id']); ?>">彻底删除</a>]-->
+							[<a href="/web/marx/index.php/Admin/Blog/toTrach?id=<?php echo ($v['id']); ?>&type=0">还原</a>]
+							<!--[<a href="/web/marx/index.php/Admin/Blog/delete?id=<?php echo ($v['id']); ?>">彻底删除</a>]-->
 							[<a href="javascript:del(<?php echo ($v['id']); ?>)">彻底删除</a>]<?php endif; ?>
 					</td>
 				</tr><?php endforeach; endif; ?>

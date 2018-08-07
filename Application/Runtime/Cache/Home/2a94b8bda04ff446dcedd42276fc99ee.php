@@ -2,15 +2,22 @@
 <head>
     <meta charset="UTF-8">
     <!--引入jQuery文件-->
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="/web/marx/Public/bootstrap/jquery.min.js"></script>
+    <!-- 学校内网，放弃云资源了。最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="/web/marx/Public/bootstrap/bootstrap.min.css">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/web/marx/Public/css/main.css">
+        <script src="/web/marx/Public/bootstrap/bootstrap.min.js"></script>
+    <!-- 做兼容IE8内核浏览器的处理，what fuck -->
+    
+        <link rel="stylesheet" href="/web/marx/Public/css/main.css">
+        
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="/web/marx/Public/css/ie8main.css">
+        <![endif]-->
+        <!--[if gte IE 9]>
+        <link rel="stylesheet" href="/web/marx/Public/css/main.css">
+        <![endif]-->
+        <!-- IE8处理结束 -->
     <link rel="javascript" href="/web/marx/Public/js/main.js">
     <link rel="stylesheet" href="/web/marx/Public/css/ft-carousel.css">
     <script type="text/javascript" src="/web/marx/Public/js/ft-carousel.min.js"></script>
@@ -171,7 +178,7 @@
     <div class="topdec" ><a href="<?php echo U('Lists/index?cid=1');?>" style="color: white"><b>新闻动态</b>>>></a></div>
     <marquee behavior="scroll" direction="up" scrollamount="4.5" onmouseover=this.stop() onmouseout=this.start()><middle>
         <?php if(is_array($newstit)): $i = 0; $__LIST__ = $newstit;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="display:none;"><?php echo ($b=$vo["id"]); ?></p>
-            <a href="<?php echo U('Show/index?id='.$b);?>" ><b><?php echo ($vo['title']); ?></b></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
+            <a href="<?php echo U('Show/index?id='.$b);?>" ><b><?php echo ($vo['title']); ?> [<?php echo ($vo['time']); ?>]</b></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
     </middle></marquee>
 </div>
 <div class="flowpic">
@@ -251,7 +258,7 @@
     <div class="topdec" ><a href="<?php echo U('Lists/index?cid=2');?>" style="color: white"><b>公告栏</b>>>></a></div>
     <marquee behavior="scroll" direction="up" scrollamount="4" onmouseover=this.stop() onmouseout=this.start()><middle>
         <?php if(is_array($noticetit)): $i = 0; $__LIST__ = $noticetit;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p style="display:none;"><?php echo ($b=$vo["id"]); ?></p>
-            <a href="<?php echo U('Show/index?id='.$b);?>"><b><?php echo ($vo['title']); ?></b></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
+            <a href="<?php echo U('Show/index?id='.$b);?>"><b><?php echo ($vo['title']); ?> [<?php echo ($vo['time']); ?>]</b></a><br><br><?php endforeach; endif; else: echo "" ;endif; ?>
     </middle></marquee>
 </div>
 </div>
@@ -318,12 +325,15 @@
 
 </div>
 </div>
-</body>
-<footer class="indexfoot" >
+<div class="indexfoot" >
     <a href="http://www.sau.edu.cn">沈航官网</a> |
     <a href="http://i.sau.edu.cn">数字沈航</a> |
     <a href="http://lib.sau.edu.cn">沈航图书馆</a><br>
     <a href="mailto:316433179@qq.com" style="color: #232323; text-decoration: none;">Power by dlink </a><br>
     版权所有 沈阳航空航天大学马克思主义学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;辽宁省沈阳市沈北新区道义南大街37号  联系电话：89724408
     <br>&nbsp;
-</footer>
+</div>
+</body>
+</!DOCTYPE html>
+
+</html>

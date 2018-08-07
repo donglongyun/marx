@@ -11,6 +11,7 @@ use Common\Model\BlogModel;
 class ShowController extends Controller{
     public function index($id){
         $blogs=M(blog)->where(array('id'=>$id))->select();
+        $blogs[0]['time']=date('Y-m-d',$blogs[0]['time']);
         $this->assign("blogs",$blogs);
         $pid=$blogs[0]['cid'];
         $click=$blogs[0]['click'];
@@ -24,6 +25,7 @@ class ShowController extends Controller{
     }
     public function showdet($cid){
         $det=M(blog)->where(array("cid"=>$cid))->select();
+        $det[0]['time']=date('Y-m-d',$det[0]['time']);
         $this->assign('blogs',$det);
         //var_dump($det);
         $pid=$det[0]['cid'];
